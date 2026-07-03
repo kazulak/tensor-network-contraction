@@ -1,0 +1,262 @@
+{
+    "Random Regular n=40, D=8": {
+        "name": "Random Regular n=40, D=8",
+        "family": "Random Regular Graph",
+        "tensors": 40,
+        "indices": 60,
+        "nslices": 64,
+        "unsliced_flops": 612991488.0,
+        "unsliced_width": 21.0,
+        "unsliced_time": 0.05901741981506348,
+        "sliced_flops": 5221646336.0,
+        "sliced_width": 18.0,
+        "sliced_serial_time": 0.4436800479888916,
+        "flop_inflation": 8.518301539612896,
+        "time_overhead": 7.517781180187204,
+        "parallel_runs": {
+            "1": {
+                "time": 0.4129350185394287,
+                "speedup_sliced": 1.0744548853187834,
+                "efficiency_sliced": 1.0744548853187834,
+                "net_speedup": 0.1429218089175652,
+                "agree": true,
+                "error": 0.0
+            },
+            "2": {
+                "time": 0.23978018760681152,
+                "speedup_sliced": 1.8503615849881327,
+                "efficiency_sliced": 0.9251807924940664,
+                "net_speedup": 0.24613134389501556,
+                "agree": true,
+                "error": 0.0
+            },
+            "4": {
+                "time": 0.16831612586975098,
+                "speedup_sliced": 2.635992515252086,
+                "efficiency_sliced": 0.6589981288130216,
+                "net_speedup": 0.3506343762969762,
+                "agree": true,
+                "error": 0.0
+            },
+            "6": {
+                "time": 0.20387792587280273,
+                "speedup_sliced": 2.1762044423862683,
+                "efficiency_sliced": 0.3627007403977114,
+                "net_speedup": 0.2894742996938463,
+                "agree": true,
+                "error": 0.0
+            },
+            "8": {
+                "time": 0.22954797744750977,
+                "speedup_sliced": 1.932842331796833,
+                "efficiency_sliced": 0.24160529147460413,
+                "net_speedup": 0.25710276549292993,
+                "agree": true,
+                "error": 0.0
+            },
+            "12": {
+                "time": 0.2635316848754883,
+                "speedup_sliced": 1.6835928028863727,
+                "efficiency_sliced": 0.14029940024053106,
+                "net_speedup": 0.2239480988517477,
+                "agree": true,
+                "error": 0.0
+            }
+        }
+    },
+    "Random Regular n=44, D=8": {
+        "name": "Random Regular n=44, D=8",
+        "family": "Random Regular Graph",
+        "tensors": 44,
+        "indices": 66,
+        "nslices": 64,
+        "unsliced_flops": 5698879488.0,
+        "unsliced_width": 24.0,
+        "unsliced_time": 0.45459985733032227,
+        "sliced_flops": 91275395072.0,
+        "sliced_width": 21.0,
+        "sliced_serial_time": 4.508450269699097,
+        "flop_inflation": 16.016375721612732,
+        "time_overhead": 9.917403617711999,
+        "parallel_runs": {
+            "1": {
+                "time": 4.511886358261108,
+                "speedup_sliced": 0.9992384363680348,
+                "efficiency_sliced": 0.9992384363680348,
+                "net_speedup": 0.10075605217714884,
+                "agree": true,
+                "error": 0.0
+            },
+            "2": {
+                "time": 2.4742205142974854,
+                "speedup_sliced": 1.822169949544371,
+                "efficiency_sliced": 0.9110849747721855,
+                "net_speedup": 0.18373457608300467,
+                "agree": true,
+                "error": 0.0
+            },
+            "4": {
+                "time": 1.531938076019287,
+                "speedup_sliced": 2.9429716124128342,
+                "efficiency_sliced": 0.7357429031032086,
+                "net_speedup": 0.29674819396851315,
+                "agree": true,
+                "error": 0.0
+            },
+            "6": {
+                "time": 1.323150634765625,
+                "speedup_sliced": 3.4073597905182553,
+                "efficiency_sliced": 0.5678932984197093,
+                "net_speedup": 0.3435737741310515,
+                "agree": true,
+                "error": 0.0
+            },
+            "8": {
+                "time": 1.308157205581665,
+                "speedup_sliced": 3.446413206656182,
+                "efficiency_sliced": 0.43080165083202276,
+                "net_speedup": 0.34751164110141247,
+                "agree": true,
+                "error": 0.0
+            },
+            "12": {
+                "time": 1.341733694076538,
+                "speedup_sliced": 3.3601677364166394,
+                "efficiency_sliced": 0.28001397803471995,
+                "net_speedup": 0.3388152651582662,
+                "agree": true,
+                "error": 0.0
+            }
+        }
+    },
+    "2D Grid L=5x5, D=7": {
+        "name": "2D Grid L=5x5, D=7",
+        "family": "2D Grid Network",
+        "tensors": 50,
+        "indices": 80,
+        "nslices": 343,
+        "unsliced_flops": 43318843.0,
+        "unsliced_width": 16.844129532345622,
+        "unsliced_time": 0.008735895156860352,
+        "sliced_flops": 2513688877.0,
+        "sliced_width": 14.036774610288022,
+        "sliced_serial_time": 0.38907313346862793,
+        "flop_inflation": 58.02760883987599,
+        "time_overhead": 44.537294287819655,
+        "parallel_runs": {
+            "1": {
+                "time": 0.40795373916625977,
+                "speedup_sliced": 0.9537187580723776,
+                "efficiency_sliced": 0.9537187580723776,
+                "net_speedup": 0.021413935743582132,
+                "agree": true,
+                "error": 0.0
+            },
+            "2": {
+                "time": 0.2323293685913086,
+                "speedup_sliced": 1.674661864006732,
+                "efficiency_sliced": 0.837330932003366,
+                "net_speedup": 0.03760133817704164,
+                "agree": true,
+                "error": 0.0
+            },
+            "4": {
+                "time": 0.13326764106750488,
+                "speedup_sliced": 2.919486908840446,
+                "efficiency_sliced": 0.7298717272101115,
+                "net_speedup": 0.06555151038079307,
+                "agree": true,
+                "error": 0.0
+            },
+            "6": {
+                "time": 0.14193201065063477,
+                "speedup_sliced": 2.7412641565850167,
+                "efficiency_sliced": 0.4568773594308361,
+                "net_speedup": 0.06154985839215462,
+                "agree": true,
+                "error": 0.0
+            },
+            "8": {
+                "time": 0.1280221939086914,
+                "speedup_sliced": 3.039106904745942,
+                "efficiency_sliced": 0.37988836309324275,
+                "net_speedup": 0.06823734924501457,
+                "agree": true,
+                "error": 0.0
+            },
+            "12": {
+                "time": 0.1492137908935547,
+                "speedup_sliced": 2.6074877606064093,
+                "efficiency_sliced": 0.21729064671720077,
+                "net_speedup": 0.05854616456391967,
+                "agree": true,
+                "error": 0.0
+            }
+        }
+    },
+    "2D Grid L=6x6, D=5": {
+        "name": "2D Grid L=6x6, D=5",
+        "family": "2D Grid Network",
+        "tensors": 72,
+        "indices": 120,
+        "nslices": 125,
+        "unsliced_flops": 15223251.0,
+        "unsliced_width": 13.931568569324176,
+        "unsliced_time": 0.0069506168365478516,
+        "sliced_flops": 591406375.0,
+        "sliced_width": 13.931568569324176,
+        "sliced_serial_time": 0.2197270393371582,
+        "flop_inflation": 38.84888812514489,
+        "time_overhead": 31.612595616231605,
+        "parallel_runs": {
+            "1": {
+                "time": 0.17145466804504395,
+                "speedup_sliced": 1.281545972719928,
+                "efficiency_sliced": 1.281545972719928,
+                "net_speedup": 0.04053909360299138,
+                "agree": true,
+                "error": 0.0
+            },
+            "2": {
+                "time": 0.12448692321777344,
+                "speedup_sliced": 1.7650612101061793,
+                "efficiency_sliced": 0.8825306050530897,
+                "net_speedup": 0.05583411218533103,
+                "agree": true,
+                "error": 0.0
+            },
+            "4": {
+                "time": 0.07807087898254395,
+                "speedup_sliced": 2.8144558150329972,
+                "efficiency_sliced": 0.7036139537582493,
+                "net_speedup": 0.08902957065594147,
+                "agree": true,
+                "error": 0.0
+            },
+            "6": {
+                "time": 0.07976675033569336,
+                "speedup_sliced": 2.7546194173944754,
+                "efficiency_sliced": 0.45910323623241256,
+                "net_speedup": 0.08713676823108146,
+                "agree": true,
+                "error": 0.0
+            },
+            "8": {
+                "time": 0.07725143432617188,
+                "speedup_sliced": 2.8443101575230854,
+                "efficiency_sliced": 0.35553876969038567,
+                "net_speedup": 0.0899739519036097,
+                "agree": true,
+                "error": 0.0
+            },
+            "12": {
+                "time": 0.10472846031188965,
+                "speedup_sliced": 2.098064257631533,
+                "efficiency_sliced": 0.17483868813596107,
+                "net_speedup": 0.0663679845559494,
+                "agree": true,
+                "error": 0.0
+            }
+        }
+    }
+}
