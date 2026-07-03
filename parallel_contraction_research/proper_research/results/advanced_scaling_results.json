@@ -1,0 +1,222 @@
+{
+    "1D MPS Chain": [
+        {
+            "size": "N=10, D=4",
+            "tree_node": 3.1419e-05,
+            "static_slicing": 0.08018,
+            "active_slicing": 0.000116097
+        },
+        {
+            "size": "N=15, D=4",
+            "tree_node": 5.9852e-05,
+            "static_slicing": 0.078024,
+            "active_slicing": 0.000158587
+        },
+        {
+            "size": "N=20, D=4",
+            "tree_node": 4.3011e-05,
+            "static_slicing": 0.078694,
+            "active_slicing": 0.000252101
+        },
+        {
+            "size": "N=25, D=4",
+            "tree_node": 5.1266e-05,
+            "static_slicing": 0.07529,
+            "active_slicing": 0.000237293
+        },
+        {
+            "size": "N=30, D=4",
+            "tree_node": 5.5854e-05,
+            "static_slicing": 0.07773,
+            "active_slicing": 0.000286646
+        },
+        {
+            "size": "N=35, D=4",
+            "tree_node": 6.7386e-05,
+            "static_slicing": 0.080351,
+            "active_slicing": 0.000194283
+        },
+        {
+            "size": "N=40, D=4",
+            "tree_node": 7.8357e-05,
+            "static_slicing": 0.081202,
+            "active_slicing": 0.000314728
+        }
+    ],
+    "2D PEPS Grid": [
+        {
+            "size": "3x3, D=3",
+            "tree_node": 7.2766e-05,
+            "static_slicing": 0.072351,
+            "active_slicing": 0.000249706
+        },
+        {
+            "size": "3x3, D=4",
+            "tree_node": 6.7426e-05,
+            "static_slicing": 0.079432,
+            "active_slicing": 0.000229449
+        },
+        {
+            "size": "4x3, D=4",
+            "tree_node": 7.3327e-05,
+            "static_slicing": 0.080854,
+            "active_slicing": 0.000295572
+        },
+        {
+            "size": "4x4, D=4",
+            "tree_node": 9.9176e-05,
+            "static_slicing": 0.0832,
+            "active_slicing": 0.000254225
+        },
+        {
+            "size": "5x4, D=4",
+            "tree_node": 0.00016034,
+            "static_slicing": 0.078433,
+            "active_slicing": 0.000375863
+        },
+        {
+            "size": "5x5, D=4",
+            "tree_node": 0.000209432,
+            "static_slicing": 0.07874,
+            "active_slicing": 0.000384328
+        },
+        {
+            "size": "6x5, D=4",
+            "tree_node": 0.000318235,
+            "static_slicing": 0.0771,
+            "active_slicing": 0.000591025
+        }
+    ],
+    "3D PEPS Grid": [
+        {
+            "size": "2x2x2, D=3",
+            "tree_node": 5.2939e-05,
+            "static_slicing": 0.078764,
+            "active_slicing": 0.000163706
+        },
+        {
+            "size": "2x2x2, D=4",
+            "tree_node": 5.9702e-05,
+            "static_slicing": 0.081974,
+            "active_slicing": 0.000293118
+        },
+        {
+            "size": "3x2x2, D=3",
+            "tree_node": 7.8537e-05,
+            "static_slicing": 0.08407,
+            "active_slicing": 0.000267249
+        },
+        {
+            "size": "3x3x2, D=3",
+            "tree_node": 0.000492441,
+            "static_slicing": 0.088628,
+            "active_slicing": 0.000343332
+        },
+        {
+            "size": "3x3x2, D=4",
+            "tree_node": 0.00506082,
+            "static_slicing": 0.09211,
+            "active_slicing": 0.005112526
+        },
+        {
+            "size": "3x3x3, D=3",
+            "tree_node": 0.077231597,
+            "static_slicing": 0.171202,
+            "active_slicing": 0.107872514
+        },
+        {
+            "size": "3x3x3, D=4",
+            "tree_node": 3.824067084,
+            "static_slicing": 0.500517,
+            "active_slicing": 3.164240518
+        }
+    ],
+    "Random Regular": [
+        {
+            "size": "N=12, D=4",
+            "tree_node": 7.4218e-05,
+            "static_slicing": 0.086659,
+            "active_slicing": 0.000249056
+        },
+        {
+            "size": "N=16, D=4",
+            "tree_node": 0.000101881,
+            "static_slicing": 0.079073,
+            "active_slicing": 0.000193712
+        },
+        {
+            "size": "N=20, D=4",
+            "tree_node": 0.000121487,
+            "static_slicing": 0.0813,
+            "active_slicing": 0.000319017
+        },
+        {
+            "size": "N=24, D=4",
+            "tree_node": 0.0001443,
+            "static_slicing": 0.065591,
+            "active_slicing": 0.000275034
+        },
+        {
+            "size": "N=28, D=4",
+            "tree_node": 0.000199142,
+            "static_slicing": 0.077276,
+            "active_slicing": 0.000340597
+        },
+        {
+            "size": "N=32, D=4",
+            "tree_node": 0.000231182,
+            "static_slicing": 0.077873,
+            "active_slicing": 0.000401871
+        },
+        {
+            "size": "N=36, D=4",
+            "tree_node": 0.000277148,
+            "static_slicing": 0.076321,
+            "active_slicing": 0.000426588
+        }
+    ],
+    "Binary Tree": [
+        {
+            "size": "depth=3, D=4",
+            "tree_node": 3.4394e-05,
+            "static_slicing": 0.078087,
+            "active_slicing": 0.000128751
+        },
+        {
+            "size": "depth=3, D=6",
+            "tree_node": 3.0347e-05,
+            "static_slicing": 0.080427,
+            "active_slicing": 0.000190186
+        },
+        {
+            "size": "depth=4, D=4",
+            "tree_node": 4.9263e-05,
+            "static_slicing": 0.080443,
+            "active_slicing": 0.000227094
+        },
+        {
+            "size": "depth=4, D=6",
+            "tree_node": 6.6725e-05,
+            "static_slicing": 0.066832,
+            "active_slicing": 0.000190406
+        },
+        {
+            "size": "depth=5, D=4",
+            "tree_node": 0.000143999,
+            "static_slicing": 0.080021,
+            "active_slicing": 0.000206476
+        },
+        {
+            "size": "depth=5, D=5",
+            "tree_node": 8.052e-05,
+            "static_slicing": 0.079957,
+            "active_slicing": 0.000204603
+        },
+        {
+            "size": "depth=6, D=4",
+            "tree_node": 0.000127519,
+            "static_slicing": 0.079599,
+            "active_slicing": 0.000315159
+        }
+    ]
+}

@@ -7,36 +7,30 @@ This repository serves as a generalized research environment for evaluating Larg
 ## Active Research Projects
 
 ### 1. Parallel Tensor Network Contraction Research
-This project studies the acceleration of tensor-network contractions in Python via parallel processing, focusing on memory constraints and execution speedup limits.
+This project studies the acceleration of tensor-network contractions in Python and Julia via parallel processing, focusing on memory constraints, slicing, and execution speedup limits.
 
+* **Master Reproduction Script**: [reproduce.sh](reproduce.sh)
+  * Runs the entire reproduction pipeline: sets up the environment, verifies Julia, installs Python dependencies, and runs the comparative multi-topology scaling sweep on "hot" daemon infrastructure with a single command.
 * **Main Workspace & Synthesized Findings**: [parallel_contraction_research/proper_research/](parallel_contraction_research/proper_research/)
-  * Includes the synthesized research paper, dependencies, and smoke tests.
+  * Includes the final scientific paper, dependencies, and execution logs.
+* **Hybrid Architecture Design**: [parallel_contraction_research/hybrid_python_julia_design.md](parallel_contraction_research/hybrid_python_julia_design.md)
+  * Design blueprint combining Python (planning/slicing) with Julia (GIL-free parallel execution).
 * **Autonomous Agent Workspaces**:
   * **Google Gemini 3.5 Flash (High)**: [parallel_contraction_research/gemini_3.5_flash/](parallel_contraction_research/gemini_3.5_flash/)
-    * Workspace containing paper, speedup plots, and implementation.
   * **Gemini Pro 3.1 (High)**: [parallel_contraction_research/gemini_pro_3.1/](parallel_contraction_research/gemini_pro_3.1/)
-    * Workspace containing paper, speedup plots, and implementation.
   * **GPT OSS 120b (Medium)**: [parallel_contraction_research/gpt_oss_120b/](parallel_contraction_research/gpt_oss_120b/)
-    * Workspace (no files produced).
 
 ---
 
 ## Repository Structure
 
+* **[reproduce.sh](reproduce.sh)**: Master one-command execution script to reproduce the entire hybrid Python-Julia scaling benchmark.
 * **[parallel_contraction_research/](parallel_contraction_research/)**: Workspace root for the tensor network contraction project.
-  * **[proper_research/](parallel_contraction_research/proper_research/)**: Target folder containing consolidated research, requirements, and smoke tests.
+  * **[proper_research/](parallel_contraction_research/proper_research/)**: Target folder containing consolidated research, requirements, and source code.
+  * **[hybrid_python_julia_design.md](parallel_contraction_research/hybrid_python_julia_design.md)**: Design blueprint for hybrid Python-Julia execution.
   * **[gemini_3.5_flash/](parallel_contraction_research/gemini_3.5_flash/)**: Google Gemini 3.5 Flash results.
   * **[gemini_pro_3.1/](parallel_contraction_research/gemini_pro_3.1/)**: Gemini Pro 3.1 results.
   * **[gpt_oss_120b/](parallel_contraction_research/gpt_oss_120b/)**: GPT OSS 120b workspace.
 * **[.github/workflows/](.github/workflows/)**: Contains continuous integration configurations.
 * **[LICENSE](LICENSE)**: Project license (MIT License).
 * **[README.md](README.md)**: Main entry point for the repository (this file).
-
----
-
-## Continuous Integration & Testing
-
-The repository runs a validation pipeline via GitHub Actions to ensure that research workspaces are correctly set up and basic contractions execute error-free. The CI workflow installs all pinned python dependencies and executes a validation benchmark:
-
-* Workflow definition: [.github/workflows/smoke_benchmark.yml](.github/workflows/smoke_benchmark.yml)
-* Target test script: [parallel_contraction_research/proper_research/smoke_benchmark.py](parallel_contraction_research/proper_research/smoke_benchmark.py)
