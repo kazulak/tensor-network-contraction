@@ -1,0 +1,42 @@
+{
+    "BB84 Protocol (BB_24)": {
+        "sequential_time": 0.00023276200000000005,
+        "static_sliced_time": 0.00013248875,
+        "hybrid_time": 0.000924385,
+        "speedup_vs_seq": 0.2518020089032168,
+        "speedup_vs_static": 0.14332637375119675,
+        "result_value": 4.502751174669997e-06
+    },
+    "Bernstein-Vazirani (BV_24)": {
+        "sequential_time": 0.0006605620000000002,
+        "static_sliced_time": 0.000296200375,
+        "hybrid_time": 0.001467098,
+        "speedup_vs_seq": 0.45025076716074874,
+        "speedup_vs_static": 0.20189542552712908,
+        "result_value": 0.0
+    },
+    "Exclusive-OR (XOR_24)": {
+        "sequential_time": 0.0006223910000000004,
+        "static_sliced_time": 0.00025300349999999997,
+        "hybrid_time": 0.001164677,
+        "speedup_vs_seq": 0.5343893628877365,
+        "speedup_vs_static": 0.21723061415310851,
+        "result_value": 0.0
+    },
+    "Sycamore Grid (4x4, D=8)": {
+        "sequential_time": 0.00257342,
+        "static_sliced_time": 0.0007502383749999998,
+        "hybrid_time": 0.001984121,
+        "speedup_vs_seq": 1.2970075917748967,
+        "speedup_vs_static": 0.3781212814137846,
+        "result_value": 0.002970665405575344
+    },
+    "Random Arbitrary (N=18, D=18)": {
+        "sequential_time": 0.149506352,
+        "static_sliced_time": 0.33268918887500004,
+        "hybrid_time": 0.546495725,
+        "speedup_vs_seq": 0.27357277497458926,
+        "speedup_vs_static": 0.608768145212847,
+        "result_value": -6.125272377707476e-05
+    }
+}

@@ -195,3 +195,24 @@ def generate_sycamore_like(rows, cols, depth):
             builder.apply_2q_gate(CZ_gate, q1, q2)
             
     return builder.close_circuit()
+
+# 8. Random Circuit (Arbitrary Connectivity)
+def generate_random_arbitrary(num_qubits, depth):
+    builder = CircuitBuilder(num_qubits)
+    for d in range(depth):
+        for q in range(num_qubits):
+            builder.apply_1q_gate(get_random_o2(), q)
+        active_qubits = list(range(num_qubits))
+        np.random.shuffle(active_qubits)
+        for i in range(0, len(active_qubits) - 1, 2):
+            q1 = active_qubits[i]
+            q2 = active_qubits[i+1]
+            
+            M = np.random.normal(size=(4, 4))
+            Q, R = np.linalg.qr(M)
+            d_mat = np.diag(R)
+            ph = d_mat / np.abs(d_mat)
+            Q = Q * ph
+            builder.apply_2q_gate(Q.reshape(2, 2, 2, 2), q1, q2)
+            
+    return builder.close_circuit()

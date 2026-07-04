@@ -64,15 +64,17 @@ end
 
 function load_tensors(job_dir::String, infos::Vector{TensorInfo})
     tensors = Vector{Array{Float64}}()
-    for (i, info) in enumerate(infos)
-        t_path = joinpath(job_dir, "tensors", "$(i-1).bin")
-        arr_size = prod(info.shape; init=1)
-        data = Vector{Float64}(undef, arr_size)
-        read!(t_path, data)
-        if isempty(info.shape)
-            push!(tensors, fill(data[1]))
-        else
-            push!(tensors, reshape(data, info.shape...))
+    t_path = joinpath(job_dir, "tensors.bin")
+    open(t_path, "r") do io
+        for info in infos
+            arr_size = prod(info.shape; init=1)
+            data = Vector{Float64}(undef, arr_size)
+            read!(io, data)
+            if isempty(info.shape)
+                push!(tensors, fill(data[1]))
+            else
+                push!(tensors, reshape(data, info.shape...))
+            end
         end
     end
     return tensors
