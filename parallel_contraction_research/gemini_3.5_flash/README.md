@@ -74,7 +74,7 @@ If you prefer to run the steps manually:
 ---
 
 ## Deliverables Generated
-- **Research Paper**: [paper.md](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/gemini_3.5_flash/paper.md) (also available as user-facing artifact [research_paper.md](file:///home/tom/.gemini/antigravity-cli/brain/5fa0210a-145b-4237-bf2e-0e50bfd4cba8/research_paper.md))
-- **Benchmark Table**: [benchmark_table.md](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/gemini_3.5_flash/benchmark_table.md)
-- **Performance Plot**: [speedup_plot.png](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/gemini_3.5_flash/speedup_plot.png)
-- **Raw Data**: [benchmark_results.json](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/gemini_3.5_flash/benchmark_results.json)
+- **Research Paper**: [paper.md](parallel_contraction_research/gemini_3.5_flash/paper.md) (also available as user-facing artifact [research_paper.md](file:///home/tom/.gemini/antigravity-cli/brain/5fa0210a-145b-4237-bf2e-0e50bfd4cba8/research_paper.md))
+- **Benchmark Table**: [benchmark_table.md](parallel_contraction_research/gemini_3.5_flash/benchmark_table.md)
+- **Performance Plot**: [speedup_plot.png](parallel_contraction_research/gemini_3.5_flash/speedup_plot.png)
+- **Raw Data**: [benchmark_results.json](parallel_contraction_research/gemini_3.5_flash/benchmark_results.json)

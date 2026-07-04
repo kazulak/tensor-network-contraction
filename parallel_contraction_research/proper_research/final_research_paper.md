@@ -29,11 +29,11 @@ However, slicing introduces a computational penalty. Cutting bonds prevents cert
 ---
 
 ## 3. Implementation
-The research workspace is implemented at [`parallel_contraction_research/proper_research/`](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/):
-- **[`src/network_generators.py`](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/src/network_generators.py)**: Generates random and structured closed tensor networks.
-- **[`src/contractors.py`](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/src/contractors.py)**: Wraps networks in `quimb.TensorNetwork` and uses `cotengra.HyperOptimizer` for path search and slicing. Implements sequential, ProcessPool, and ThreadPool backends.
-- **[`src/benchmark_runner.py`](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/src/benchmark_runner.py)**: Executes sweeps over worker counts and gathers metrics.
-- **[`run_deeper_research.py`](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/run_deeper_research.py)**: Main execution entry point.
+The research workspace is implemented at [`parallel_contraction_research/proper_research/`](parallel_contraction_research/proper_research/):
+- **[`src/network_generators.py`](parallel_contraction_research/proper_research/src/network_generators.py)**: Generates random and structured closed tensor networks.
+- **[`src/contractors.py`](parallel_contraction_research/proper_research/src/contractors.py)**: Wraps networks in `quimb.TensorNetwork` and uses `cotengra.HyperOptimizer` for path search and slicing. Implements sequential, ProcessPool, and ThreadPool backends.
+- **[`src/benchmark_runner.py`](parallel_contraction_research/proper_research/src/benchmark_runner.py)**: Executes sweeps over worker counts and gathers metrics.
+- **[`run_deeper_research.py`](parallel_contraction_research/proper_research/run_deeper_research.py)**: Main execution entry point.
 
 ---
 
@@ -137,7 +137,7 @@ Numerical correctness was verified for all runs (error $< 10^{-12}$). All benchm
 ---
 
 ## 8. Python Bottlenecks and Hybrid Python-Julia Design
-We have **implemented and verified** a hybrid Python-Julia parallel contraction engine based on the design at **[`parallel_contraction_research/hybrid_python_julia_design.md`](file:///home/tom/repos/tensor-network-contraction/parallel_contraction_research/hybrid_python_julia_design.md)**.
+We have **implemented and verified** a hybrid Python-Julia parallel contraction engine based on the design at **[`parallel_contraction_research/hybrid_python_julia_design.md`](parallel_contraction_research/hybrid_python_julia_design.md)**.
 - **Implementation**:
   - **Planning/Exporter (`src/exporter.py`)**: Exports numerical arrays to column-major binary files (`tensors/*.bin`) and registers sliced paths in `plan.txt`.
   - **Execution (`src/hybrid_daemon.jl`)**: A background sockets-based Julia daemon that pre-compiles functions via a warm-up contraction and executes subsequent contractions with native threads (`Threads.@threads`) and zero-copy views.
