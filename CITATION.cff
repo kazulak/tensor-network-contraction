@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this research or software in academic or industrial work, please cite it as below."
+authors:
+  - family-names: "Quantum Performance Engineering Team"
+    given-names: "Tensor Network Research Group"
+title: "Computational Physics and Hardware Limits in Quantum Circuit Tensor Network Contraction: A Micro-Architectural, Roofline, and Strong-Scaling Investigation"
+version: "1.0.0"
+date-released: "2026-09-05"
+repository-code: "https://github.com/kazulak/tensor-network-contraction"
+keywords:
+  - "quantum computing"
+  - "tensor networks"
+  - "quantum circuit simulation"
+  - "high-performance computing"
+  - "roofline model"
+  - "parallel computing"
+  - "BLAS"
+  - "task DAG"
+license: "MIT"

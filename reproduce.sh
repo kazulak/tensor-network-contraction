@@ -1,44 +1,70 @@
 #!/bin/bash
 set -e
 
-# Define paths
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-RESEARCH_DIR="$REPO_DIR/parallel_contraction_research/proper_research"
 VENV_DIR="$REPO_DIR/parallel_contraction_research/gemini_3.5_flash/venv"
+PYTHON_BIN="$VENV_DIR/bin/python"
 
 echo "=========================================================================="
-echo "    Tensor Network Contraction: Slicing and Parallel Scaling Reproducer"
+echo "  Tensor Network Contraction Research: Master Reproduction Suite"
 echo "=========================================================================="
 
 # 1. Check Julia installation
 if ! command -v julia &> /dev/null; then
-    echo "Error: julia is not installed or not in PATH."
+    echo "Error: julia is not installed or not found in PATH."
     exit 1
 fi
-JULIA_VER=$(julia --version)
-echo "Found Julia: $JULIA_VER"
+echo "✓ Julia detected: $(julia --version)"
 
 # 2. Check Python virtual environment
-if [ ! -d "$VENV_DIR" ]; then
-    echo "Creating virtual environment..."
+if [ ! -f "$PYTHON_BIN" ]; then
+    echo "Creating virtual environment at $VENV_DIR..."
     python3 -m venv "$VENV_DIR"
+    "$PYTHON_BIN" -m pip install --upgrade pip
+    "$PYTHON_BIN" -m pip install -r "$REPO_DIR/parallel_contraction_research/proper_research/requirements.txt"
 fi
+echo "✓ Python environment verified."
 
-echo "Activating virtual environment..."
-source "$VENV_DIR/bin/activate"
+TARGET="${1:-all}"
 
-# 3. Install requirements
-echo "Checking and installing python dependencies from requirements.txt..."
-pip install --upgrade pip
-pip install -r "$RESEARCH_DIR/requirements.txt"
-
-# 4. Run the reproducible scaling sweep
-echo "Launching advanced benchmark sweep..."
-python "$RESEARCH_DIR/run_advanced_scaling_sweep.py"
-
-echo "=========================================================================="
-echo "    REPRODUCTION SUCCESSFUL"
-echo "=========================================================================="
-echo "Results are compiled and saved to:"
-echo "  $RESEARCH_DIR/results/advanced_scaling_report.md"
-echo "=========================================================================="
+case "$TARGET" in
+    quantum)
+        echo ""
+        echo ">>> Reproducing Quantum Circuit Tensor Network Contraction Research..."
+        cd "$REPO_DIR/quantum_circuit_research"
+        "$PYTHON_BIN" run_advanced_scientific_research.py
+        "$PYTHON_BIN" plot_advanced_scientific_research.py
+        echo "✓ Quantum research reproduction finished! Results in quantum_circuit_research/results/"
+        ;;
+    grid)
+        echo ""
+        echo ">>> Reproducing Grid-based Parallel Contraction & Slicing Research..."
+        cd "$REPO_DIR/parallel_contraction_research/proper_research"
+        "$PYTHON_BIN" run_advanced_scaling_sweep.py
+        echo "✓ Grid scaling reproduction finished! Results in parallel_contraction_research/proper_research/results/"
+        ;;
+    all)
+        echo ""
+        echo ">>> [1/2] Reproducing Quantum Circuit Contraction Research (Roofline & Multi-Thread Scaling)..."
+        cd "$REPO_DIR/quantum_circuit_research"
+        "$PYTHON_BIN" run_advanced_scientific_research.py
+        "$PYTHON_BIN" plot_advanced_scientific_research.py
+        
+        echo ""
+        echo ">>> [2/2] Reproducing Grid-based Parallel Contraction & Slicing Research..."
+        cd "$REPO_DIR/parallel_contraction_research/proper_research"
+        "$PYTHON_BIN" run_advanced_scaling_sweep.py
+        
+        echo ""
+        echo "=========================================================================="
+        echo "  MASTER REPRODUCTION COMPLETED SUCCESSFULLY!"
+        echo "=========================================================================="
+        echo "Outputs available at:"
+        echo "  - Quantum Circuit Research: quantum_circuit_research/results/"
+        echo "  - Grid Contraction Research: parallel_contraction_research/proper_research/results/"
+        ;;
+    *)
+        echo "Usage: $0 [all|quantum|grid]"
+        exit 1
+        ;;
+esac

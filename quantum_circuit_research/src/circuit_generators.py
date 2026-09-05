@@ -216,3 +216,31 @@ def generate_random_arbitrary(num_qubits, depth):
             builder.apply_2q_gate(Q.reshape(2, 2, 2, 2), q1, q2)
             
     return builder.close_circuit()
+
+# 9. 1D Brickwork Random Circuit
+def generate_1d_brickwork(num_qubits, depth):
+    builder = CircuitBuilder(num_qubits)
+    for d in range(depth):
+        for q in range(num_qubits):
+            builder.apply_1q_gate(get_random_o2(), q)
+        start = 0 if d % 2 == 0 else 1
+        for q in range(start, num_qubits - 1, 2):
+            M = np.random.normal(size=(4, 4))
+            Q, R = np.linalg.qr(M)
+            d_mat = np.diag(R)
+            ph = d_mat / np.abs(d_mat)
+            Q = Q * ph
+            builder.apply_2q_gate(Q.reshape(2, 2, 2, 2), q, q + 1)
+    return builder.close_circuit()
+
+# 10. Quantum Fourier Transform (QFT)
+def generate_qft(num_qubits):
+    builder = CircuitBuilder(num_qubits)
+    for i in range(num_qubits):
+        builder.apply_1q_gate(H_gate, i)
+        for j in range(i + 1, num_qubits):
+            theta = np.pi / (2 ** (j - i))
+            R = np.eye(4, dtype=np.float64)
+            R[3, 3] = np.cos(theta)
+            builder.apply_2q_gate(R.reshape(2, 2, 2, 2), j, i)
+    return builder.close_circuit()
