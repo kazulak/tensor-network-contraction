@@ -39,13 +39,11 @@ def export_contraction_job(tensors, edges, target_slices, job_dir="job_data"):
     tree = opt.search(edges, output_indices, size_dict)
     nslices = tree.nslices
     
-    # 3. Save raw tensors as binary files
-    for idx, t in enumerate(tensors):
-        # Save as Fortran contiguous (column-major) Float64 binary format
-        # to match Julia's native column-major memory layout.
-        # We must use flatten(order='F') because ndarray.tofile() always writes in C-order.
-        t_arr = t.flatten(order='F')
-        t_arr.tofile(os.path.join(job_dir, "tensors", f"{idx}.bin"))
+    # 3. Save raw tensors as a single binary file to avoid hundreds of separate disk writes
+    with open(os.path.join(job_dir, "tensors.bin"), "wb") as f:
+        for t in tensors:
+            t_arr = t.flatten(order='F')
+            f.write(t_arr.tobytes())
         
     # 4. Reconstruct contraction tree steps with original index names
     node_inds = {i: list(edges[i]) for i in range(len(tensors))}

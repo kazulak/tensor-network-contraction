@@ -3,6 +3,7 @@ import sys
 import time
 import socket
 import subprocess
+import shutil
 import numpy as np
 
 # Ensure proper_research root in path
@@ -125,7 +126,8 @@ def test_persistent_daemon():
     shutdown_daemon(port)
     
     # Clean up folders
-    subprocess.run(["rm", "-rf", job_dir])
+    if os.path.exists(job_dir):
+        shutil.rmtree(job_dir, ignore_errors=True)
     
     print("\n" + "=" * 80)
     print("                         TIMING COMPARISON TABLE")

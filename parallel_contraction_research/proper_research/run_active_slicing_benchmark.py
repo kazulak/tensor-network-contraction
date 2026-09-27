@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import subprocess
+import shutil
 import numpy as np
 
 # Ensure proper_research root in path
@@ -132,7 +133,9 @@ def main():
     print("=" * 80)
     
     # Clean up folders
-    subprocess.run(["rm", "-rf", unsliced_job_dir, sliced_job_dir])
+    for d in [unsliced_job_dir, sliced_job_dir]:
+        if os.path.exists(d):
+            shutil.rmtree(d, ignore_errors=True)
 
 if __name__ == "__main__":
     main()

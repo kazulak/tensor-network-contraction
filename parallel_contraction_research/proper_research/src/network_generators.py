@@ -1,25 +1,38 @@
 import numpy as np
 import networkx as nx
 
-def generate_1d_chain(n, d_bond=16):
+def _get_rng(seed=None):
+    if seed is None:
+        return None
+    if isinstance(seed, np.random.Generator):
+        return seed
+    return np.random.default_rng(seed)
+
+def generate_1d_chain(n, d_bond=16, seed=None):
     """Generates a closed 1D chain tensor network (Vector-Matrix-Matrix...-Vector)."""
+    rng = _get_rng(seed)
     tensors = []
     edges = []
     
-    tensors.append(np.random.randn(d_bond))
+    rand_fn = rng.standard_normal if rng is not None else np.random.randn
+    
+    tensors.append(rand_fn(d_bond))
     edges.append(['b0'])
     
     for i in range(1, n - 1):
-        tensors.append(np.random.randn(d_bond, d_bond))
+        tensors.append(rand_fn((d_bond, d_bond)) if rng is not None else rand_fn(d_bond, d_bond))
         edges.append([f'b{i-1}', f'b{i}'])
         
-    tensors.append(np.random.randn(d_bond))
+    tensors.append(rand_fn(d_bond))
     edges.append([f'b{n-2}'])
     
     return tensors, edges
 
-def generate_2d_grid(rows, cols, d_bond=3):
+def generate_2d_grid(rows, cols, d_bond=3, seed=None):
     """Generates a closed 2D grid tensor network (PEPS-like with no physical legs)."""
+    rng = _get_rng(seed)
+    rand_fn = rng.standard_normal if rng is not None else np.random.randn
+    
     tensors = []
     edges = []
     for r in range(rows):
@@ -40,12 +53,15 @@ def generate_2d_grid(rows, cols, d_bond=3):
                 node_edges.append(f'v_{r}_{c}')
                 shape.append(d_bond)
                 
-            tensors.append(np.random.randn(*shape))
+            tensors.append(rand_fn(tuple(shape)) if rng is not None else rand_fn(*shape))
             edges.append(node_edges)
     return tensors, edges
 
-def generate_3d_grid(l, w, h, d_bond=2):
+def generate_3d_grid(l, w, h, d_bond=2, seed=None):
     """Generates a closed 3D grid tensor network with no physical legs."""
+    rng = _get_rng(seed)
+    rand_fn = rng.standard_normal if rng is not None else np.random.randn
+    
     tensors = []
     edges = []
     for x in range(l):
@@ -76,13 +92,17 @@ def generate_3d_grid(l, w, h, d_bond=2):
                     node_edges.append(f'z_{x}_{y}_{z}')
                     shape.append(d_bond)
                     
-                tensors.append(np.random.randn(*shape))
+                tensors.append(rand_fn(tuple(shape)) if rng is not None else rand_fn(*shape))
                 edges.append(node_edges)
     return tensors, edges
 
-def generate_random_regular(n, degree=3, d_bond=3):
+def generate_random_regular(n, degree=3, d_bond=3, seed=None):
     """Generates a closed Random Regular Graph tensor network."""
-    G = nx.random_regular_graph(degree, n)
+    rng = _get_rng(seed)
+    rand_fn = rng.standard_normal if rng is not None else np.random.randn
+    nx_seed = seed if isinstance(seed, int) else None
+    
+    G = nx.random_regular_graph(degree, n, seed=nx_seed)
     tensors = []
     edges = []
     
@@ -97,13 +117,16 @@ def generate_random_regular(n, degree=3, d_bond=3):
             node_edges.append(edge_to_name[e])
             shape.append(d_bond)
             
-        tensors.append(np.random.randn(*shape))
+        tensors.append(rand_fn(tuple(shape)) if rng is not None else rand_fn(*shape))
         edges.append(node_edges)
         
     return tensors, edges
 
-def generate_binary_tree(depth, d_bond=3):
+def generate_binary_tree(depth, d_bond=3, seed=None):
     """Generates a closed binary tree tensor network with no physical legs."""
+    rng = _get_rng(seed)
+    rand_fn = rng.standard_normal if rng is not None else np.random.randn
+    
     tensors = []
     edges = []
     
@@ -130,7 +153,7 @@ def generate_binary_tree(depth, d_bond=3):
             node_edges.append(f't_{i}_{right_child}')
             shape.append(d_bond)
             
-        tensors.append(np.random.randn(*shape))
+        tensors.append(rand_fn(tuple(shape)) if rng is not None else rand_fn(*shape))
         edges.append(node_edges)
         
     return tensors, edges

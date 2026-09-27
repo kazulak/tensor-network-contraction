@@ -1,6 +1,8 @@
 using Sockets
 using LinearAlgebra
 
+BLAS.set_num_threads(1)
+
 # Structure representing step descriptors
 struct ContractionStep
     parent::Int
@@ -130,24 +132,31 @@ end
 function load_tensors_only(job_dir::String, num_initial::Int)
     tensors = Vector{Array{Float64}}(undef, num_initial)
     plan_lines = readlines(joinpath(job_dir, "plan.txt"))
-    
-    # Parse shapes sequentially
     line_idx = 4
-    for i in 1:num_initial
-        parts = split(plan_lines[line_idx], "|")
-        shape = isempty(parts[1]) ? Int[] : [parse(Int, x) for x in split(parts[1], ",")]
-        
-        t_path = joinpath(job_dir, "tensors", "$(i-1).bin")
-        arr_size = prod(shape; init=1)
-        data = Vector{Float64}(undef, arr_size)
-        read!(t_path, data)
-        
-        if isempty(shape)
-            tensors[i] = fill(data[1])
-        else
-            tensors[i] = reshape(data, shape...)
+    single_bin = joinpath(job_dir, "tensors.bin")
+    if isfile(single_bin)
+        open(single_bin, "r") do io
+            for i in 1:num_initial
+                parts = split(plan_lines[line_idx], "|")
+                shape = isempty(parts[1]) ? Int[] : [parse(Int, x) for x in split(parts[1], ",")]
+                arr_size = prod(shape; init=1)
+                data = Vector{Float64}(undef, arr_size)
+                read!(io, data)
+                tensors[i] = isempty(shape) ? fill(data[1]) : reshape(data, shape...)
+                line_idx += 1
+            end
         end
-        line_idx += 1
+    else
+        for i in 1:num_initial
+            parts = split(plan_lines[line_idx], "|")
+            shape = isempty(parts[1]) ? Int[] : [parse(Int, x) for x in split(parts[1], ",")]
+            t_path = joinpath(job_dir, "tensors", "$(i-1).bin")
+            arr_size = prod(shape; init=1)
+            data = Vector{Float64}(undef, arr_size)
+            read!(t_path, data)
+            tensors[i] = isempty(shape) ? fill(data[1]) : reshape(data, shape...)
+            line_idx += 1
+        end
     end
     return tensors
 end

@@ -1,9 +1,17 @@
 import os
+import sys
 import json
 import subprocess
 import shutil
 import numpy as np
-from src.circuit_generators import (
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+repo_dir = os.path.abspath(os.path.join(current_dir, ".."))
+quantum_src = os.path.join(current_dir, "src")
+if quantum_src not in sys.path:
+    sys.path.insert(0, quantum_src)
+
+from circuit_generators import (
     generate_bb84,
     generate_bernstein_vazirani,
     generate_error_detection,
@@ -12,14 +20,13 @@ from src.circuit_generators import (
     generate_sycamore_like,
     generate_random_arbitrary
 )
-from src.exporter import export_contraction_job
+from exporter import export_contraction_job
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
 results_dir = os.path.join(current_dir, "results")
 os.makedirs(results_dir, exist_ok=True)
 
 job_dir = os.path.join(results_dir, "benchmark_job")
-julia_project = "/home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/src/"
+julia_project = os.path.join(repo_dir, "parallel_contraction_research", "proper_research", "src")
 
 def run_baseline(mode, threads=1):
     cmd = [

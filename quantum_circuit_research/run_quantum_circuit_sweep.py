@@ -1,8 +1,15 @@
 import os
+import sys
 import json
 import subprocess
 import shutil
-from src.circuit_generators import (
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+quantum_src = os.path.join(current_dir, "src")
+if quantum_src not in sys.path:
+    sys.path.insert(0, quantum_src)
+
+from circuit_generators import (
     generate_bb84,
     generate_bernstein_vazirani,
     generate_error_detection,
@@ -11,7 +18,7 @@ from src.circuit_generators import (
     generate_xor,
     generate_sycamore_like
 )
-from src.exporter import export_contraction_job
+from exporter import export_contraction_job
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 results_dir = os.path.join(current_dir, "results")
@@ -21,7 +28,7 @@ unsliced_job_dir = os.path.join(results_dir, "prof_unsliced")
 sliced_job_dir = os.path.join(results_dir, "prof_sliced")
 
 # Julia environment project path
-julia_project = "/home/tom/repos/tensor-network-contraction/parallel_contraction_research/proper_research/src/"
+julia_project = os.path.abspath(os.path.join(current_dir, "..", "parallel_contraction_research", "proper_research", "src"))
 
 def run_julia_profiler(job_dir, mode, threads=1):
     cmd = [

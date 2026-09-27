@@ -18,16 +18,27 @@ CZ_gate[0, 1, 0, 1] = 1.0
 CZ_gate[1, 0, 1, 0] = 1.0
 CZ_gate[1, 1, 1, 1] = -1.0
 
-def get_random_o2():
-    theta = np.random.uniform(0, 2 * np.pi)
+def _get_rng(seed=None):
+    if seed is None:
+        return None
+    if isinstance(seed, np.random.Generator):
+        return seed
+    return np.random.default_rng(seed)
+
+def get_random_o2(rng=None):
+    if rng is not None:
+        theta = rng.uniform(0, 2 * np.pi)
+    else:
+        theta = np.random.uniform(0, 2 * np.pi)
     return np.array([
         [np.cos(theta), -np.sin(theta)],
         [np.sin(theta), np.cos(theta)]
     ], dtype=np.float64)
 
 class CircuitBuilder:
-    def __init__(self, num_qubits):
+    def __init__(self, num_qubits, seed=None):
         self.num_qubits = num_qubits
+        self.rng = _get_rng(seed)
         self.tensors = []
         self.edges = []
         self.q_versions = [0] * num_qubits
@@ -64,7 +75,11 @@ class CircuitBuilder:
         for q in range(self.num_qubits):
             v = self.q_versions[q]
             final_leg = f"q_{q}_{v}"
-            proj = np.array([1.0, 0.0], dtype=np.float64) if np.random.rand() > 0.5 else np.array([0.0, 1.0], dtype=np.float64)
+            if self.rng is not None:
+                bit = self.rng.random() > 0.5
+            else:
+                bit = np.random.rand() > 0.5
+            proj = np.array([1.0, 0.0], dtype=np.float64) if bit else np.array([0.0, 1.0], dtype=np.float64)
             self.tensors.append(proj)
             self.edges.append([final_leg])
             
@@ -72,17 +87,19 @@ class CircuitBuilder:
 
 # 1. BB84 Protocol (BB_n)
 # Qubits: n, 1Q Gates: 2n, 2Q Gates: 0
-def generate_bb84(num_qubits):
-    builder = CircuitBuilder(num_qubits)
+def generate_bb84(num_qubits, seed=None):
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     for q in range(num_qubits):
-        builder.apply_1q_gate(get_random_o2(), q)
-        builder.apply_1q_gate(get_random_o2(), q)
+        builder.apply_1q_gate(get_random_o2(rng), q)
+        builder.apply_1q_gate(get_random_o2(rng), q)
     return builder.close_circuit()
 
 # 2. Bernstein–Vazirani (BV_n)
 # Qubits: n, 1Q Gates: 2n, 2Q Gates: n-1
-def generate_bernstein_vazirani(num_qubits):
-    builder = CircuitBuilder(num_qubits)
+def generate_bernstein_vazirani(num_qubits, seed=None):
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     target = num_qubits - 1
     
     # 1. H on all qubits
@@ -104,8 +121,9 @@ def generate_bernstein_vazirani(num_qubits):
 
 # 3. Error Detection Code (EDC_n)
 # Qubits: n, 1Q Gates: 2n, 2Q Gates: 2n-2
-def generate_error_detection(num_qubits):
-    builder = CircuitBuilder(num_qubits)
+def generate_error_detection(num_qubits, seed=None):
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     
     # 1. H on all qubits (n gates)
     for q in range(num_qubits):
@@ -127,10 +145,11 @@ def generate_error_detection(num_qubits):
 
 # 4. Hidden Subgroup Problem (HS_2n)
 # Qubits: 2n, 1Q Gates: 6n, 2Q Gates: 2n
-def generate_hidden_subgroup(num_qubits):
+def generate_hidden_subgroup(num_qubits, seed=None):
     # num_qubits is 2n, so n = num_qubits // 2
     n = num_qubits // 2
-    builder = CircuitBuilder(num_qubits)
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     
     # 1. H on all 2n qubits (2n gates)
     for q in range(num_qubits):
@@ -147,34 +166,37 @@ def generate_hidden_subgroup(num_qubits):
         
     # 4. Random rotation gates (3n gates)
     for q in range(num_qubits):
-        builder.apply_1q_gate(get_random_o2(), q)
+        builder.apply_1q_gate(get_random_o2(rng), q)
     for q in range(n):
         # We need n more single qubit gates to reach exactly 6n
-        builder.apply_1q_gate(get_random_o2(), q)
+        builder.apply_1q_gate(get_random_o2(rng), q)
         
     return builder.close_circuit()
 
 # 5. Quantum Random Number Generator (QRNG_n)
 # Qubits: n, 1Q Gates: n, 2Q Gates: 0
-def generate_qrng(num_qubits):
-    builder = CircuitBuilder(num_qubits)
+def generate_qrng(num_qubits, seed=None):
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     for q in range(num_qubits):
         builder.apply_1q_gate(H_gate, q)
     return builder.close_circuit()
 
 # 6. Exclusive-OR (XOR_n)
 # Qubits: n, 1Q Gates: 0, 2Q Gates: n-1
-def generate_xor(num_qubits):
-    builder = CircuitBuilder(num_qubits)
+def generate_xor(num_qubits, seed=None):
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     target = num_qubits - 1
     for q in range(num_qubits - 1):
         builder.apply_2q_gate(CNOT_gate, q, target)
     return builder.close_circuit()
 
 # 7. Sycamore-like Random Circuit (Reference)
-def generate_sycamore_like(rows, cols, depth):
+def generate_sycamore_like(rows, cols, depth, seed=None):
     num_qubits = rows * cols
-    builder = CircuitBuilder(num_qubits)
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     
     def get_q_idx(r, c):
         return r * cols + c
@@ -188,7 +210,7 @@ def generate_sycamore_like(rows, cols, depth):
 
     for d in range(depth):
         for q in range(num_qubits):
-            builder.apply_1q_gate(get_random_o2(), q)
+            builder.apply_1q_gate(get_random_o2(rng), q)
             
         pairs = patterns[d % len(patterns)](d)
         for q1, q2 in pairs:
@@ -197,18 +219,25 @@ def generate_sycamore_like(rows, cols, depth):
     return builder.close_circuit()
 
 # 8. Random Circuit (Arbitrary Connectivity)
-def generate_random_arbitrary(num_qubits, depth):
-    builder = CircuitBuilder(num_qubits)
+def generate_random_arbitrary(num_qubits, depth, seed=None):
+    rng = _get_rng(seed)
+    builder = CircuitBuilder(num_qubits, seed=rng)
     for d in range(depth):
         for q in range(num_qubits):
-            builder.apply_1q_gate(get_random_o2(), q)
+            builder.apply_1q_gate(get_random_o2(rng), q)
         active_qubits = list(range(num_qubits))
-        np.random.shuffle(active_qubits)
+        if rng is not None:
+            rng.shuffle(active_qubits)
+        else:
+            np.random.shuffle(active_qubits)
         for i in range(0, len(active_qubits) - 1, 2):
             q1 = active_qubits[i]
             q2 = active_qubits[i+1]
             
-            M = np.random.normal(size=(4, 4))
+            if rng is not None:
+                M = rng.normal(size=(4, 4))
+            else:
+                M = np.random.normal(size=(4, 4))
             Q, R = np.linalg.qr(M)
             d_mat = np.diag(R)
             ph = d_mat / np.abs(d_mat)

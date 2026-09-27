@@ -3,6 +3,7 @@ import sys
 import time
 import json
 import subprocess
+import shutil
 import numpy as np
 
 # Ensure proper_research root in path
@@ -150,7 +151,9 @@ def main():
             except Exception as e:
                 print(f"  Error running {size_label}: {e}")
             finally:
-                subprocess.run(["rm", "-rf", unsliced_job_dir, sliced_job_dir])
+                for d in [unsliced_job_dir, sliced_job_dir]:
+                    if os.path.exists(d):
+                        shutil.rmtree(d, ignore_errors=True)
                 
     # Save results to JSON
     json_path = os.path.join(current_dir, "results", "advanced_scaling_results.json")

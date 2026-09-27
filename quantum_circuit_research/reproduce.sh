@@ -6,12 +6,13 @@ echo "==========================================================================
 echo "Starting Reproduction of Quantum Circuit Contraction Research"
 echo "=========================================================================="
 
-# Find local python virtual environment
-PYTHON_ENV="../parallel_contraction_research/gemini_3.5_flash/venv/bin/python"
-
-if [ ! -f "$PYTHON_ENV" ]; then
-    echo "Error: Python virtual environment not found at $PYTHON_ENV."
-    exit 1
+# Find local python executable
+if [ -f "../parallel_contraction_research/gemini_3.5_flash/venv/bin/python" ]; then
+    PYTHON_ENV="../parallel_contraction_research/gemini_3.5_flash/venv/bin/python"
+elif command -v python3 &> /dev/null; then
+    PYTHON_ENV="python3"
+else
+    PYTHON_ENV="python"
 fi
 
 echo "1. Running the 7x7 profiling sweep..."

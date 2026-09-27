@@ -41,7 +41,7 @@ def export_contraction_job(tensors, edges, target_slices, job_dir="job_data"):
     # 3. Save raw tensors as a single binary file to avoid hundreds of separate disk writes
     with open(os.path.join(job_dir, "tensors.bin"), "wb") as f:
         for t in tensors:
-            t_arr = t.flatten(order='F')
+            t_arr = np.asarray(t, dtype=np.float64).flatten(order='F')
             f.write(t_arr.tobytes())
         
     # 4. Reconstruct contraction tree steps with original index names
