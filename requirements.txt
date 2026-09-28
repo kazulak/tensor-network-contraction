@@ -1,9 +1,4 @@
-# Core requirements (Required for tensor network generation, exact oracle validation, export & serialization)
-numpy>=1.20.0
-networkx>=2.6
-opt_einsum>=3.3.0
-cotengra>=0.8.0
-
-# Optional benchmark & plotting dependencies
-matplotlib>=3.5.0
-pytest>=7.0.0
+# Topics: everything needed to run topics/ and their tests.
+numpy>=1.24
+opt_einsum>=3.3
+pytest>=7.0

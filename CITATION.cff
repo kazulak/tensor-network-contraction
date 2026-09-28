@@ -1,19 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this research or software in academic or industrial work, please cite it as below."
+message: >-
+  Personal side project on tensor networks. Much of the code and all agent-run papers
+  were written by AI under the author's direction; nothing is peer-reviewed. Cite as software.
+type: software
+title: "Tensor networks: topics and AI agent evals"
 authors:
-  - family-names: "Quantum Performance Engineering Team"
-    given-names: "Tensor Network Research Group"
-title: "Computational Physics and Hardware Limits in Quantum Circuit Tensor Network Contraction: A Micro-Architectural, Roofline, and Strong-Scaling Investigation"
-version: "1.0.0"
-date-released: "2026-09-05"
-repository-code: "https://github.com/kazulak/tensor-network-contraction"
+  - family-names: Kazulak
+    given-names: Tomasz
+repository-code: "https://github.com/kazulak/tensor-networks-studies"
+license: MIT
 keywords:
-  - "quantum computing"
-  - "tensor networks"
-  - "quantum circuit simulation"
-  - "high-performance computing"
-  - "roofline model"
-  - "parallel computing"
-  - "BLAS"
-  - "task DAG"
-license: "MIT"
+  - tensor networks
+  - quantum circuit simulation
+  - parallel computing
+  - AI-assisted research

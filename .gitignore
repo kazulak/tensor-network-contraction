@@ -1,42 +1,24 @@
-# Python cache files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Packaging / Distribution
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Installer / IDE logs
-pip-log.txt
-pip-delete-this-directory.txt
 .pytest_cache/
-.mypy_cache/
 .ipynb_checkpoints/
+.venv/
+venv/
+
+# Local scratch and logs
+*.log
+debug_job/
+
+# Reference PDFs that may not be redistributed (fetched locally, see references/)
+references/local/
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Auditor scratch copies of agent studies
+agent-evals/*/audit/work/

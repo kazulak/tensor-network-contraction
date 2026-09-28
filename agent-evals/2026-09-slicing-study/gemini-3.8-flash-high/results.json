@@ -1,0 +1,286 @@
+{
+  "1D_brickwork": {
+    "baseline": {
+      "max_size": 512,
+      "flops": 66552
+    },
+    "guided": [
+      {
+        "target": 256,
+        "k": 2,
+        "nslices": 4,
+        "max_size": 256,
+        "mem_red": 2.0,
+        "flops": 133328,
+        "overhead": 2.0033657891573506
+      },
+      {
+        "target": 128,
+        "k": 6,
+        "nslices": 64,
+        "max_size": 128,
+        "mem_red": 4.0,
+        "flops": 854528,
+        "overhead": 12.840004808270225
+      },
+      {
+        "target": 64,
+        "k": 8,
+        "nslices": 256,
+        "max_size": 64,
+        "mem_red": 8.0,
+        "flops": 2414592,
+        "overhead": 36.281283808150015
+      },
+      {
+        "target": 32,
+        "k": 16,
+        "nslices": 65536,
+        "max_size": 32,
+        "mem_red": 16.0,
+        "flops": 233832448,
+        "overhead": 3513.529991585527
+      }
+    ],
+    "random": [
+      {
+        "k": 2,
+        "nslices": 4,
+        "mean_size": 512.0,
+        "min_size": 512,
+        "mem_red": 1.0,
+        "mean_flops": 242626.56,
+        "mean_overhead": 3.6456689505950233
+      },
+      {
+        "k": 6,
+        "nslices": 64,
+        "mean_size": 512.0,
+        "min_size": 512,
+        "mem_red": 1.0,
+        "mean_flops": 3291228.16,
+        "mean_overhead": 49.4534823897103
+      },
+      {
+        "k": 8,
+        "nslices": 256,
+        "mean_size": 512.0,
+        "min_size": 512,
+        "mem_red": 1.0,
+        "mean_flops": 11710054.4,
+        "mean_overhead": 175.95345594422406
+      },
+      {
+        "k": 16,
+        "nslices": 65536,
+        "mean_size": 501.76,
+        "min_size": 256,
+        "mem_red": 1.0204081632653061,
+        "mean_flops": 2182844252.16,
+        "mean_overhead": 32799.07819689866
+      }
+    ],
+    "suboptimal": [
+      {
+        "k": 2,
+        "nslices": 4,
+        "max_size": 512,
+        "mem_red": 1.0,
+        "flops": 266144,
+        "overhead": 3.9990383459550425
+      },
+      {
+        "k": 6,
+        "nslices": 64,
+        "max_size": 512,
+        "mem_red": 1.0,
+        "flops": 4256256,
+        "overhead": 63.953840605842046
+      },
+      {
+        "k": 8,
+        "nslices": 256,
+        "max_size": 512,
+        "mem_red": 1.0,
+        "flops": 17020928,
+        "overhead": 255.75381656449093
+      },
+      {
+        "k": 16,
+        "nslices": 65536,
+        "max_size": 512,
+        "mem_red": 1.0,
+        "flops": 4353163264,
+        "overhead": 65409.95408101935
+      }
+    ]
+  },
+  "2D_sycamore": {
+    "baseline": {
+      "max_size": 65536,
+      "flops": 3378800
+    },
+    "guided": [
+      {
+        "target": 8192,
+        "k": 3,
+        "nslices": 8,
+        "max_size": 8192,
+        "mem_red": 8.0,
+        "flops": 3562880,
+        "overhead": 1.054480880786078
+      },
+      {
+        "target": 4096,
+        "k": 4,
+        "nslices": 16,
+        "max_size": 4096,
+        "mem_red": 16.0,
+        "flops": 3691008,
+        "overhead": 1.092402036225879
+      },
+      {
+        "target": 2048,
+        "k": 5,
+        "nslices": 32,
+        "max_size": 2048,
+        "mem_red": 32.0,
+        "flops": 3949312,
+        "overhead": 1.1688504794601633
+      },
+      {
+        "target": 1024,
+        "k": 6,
+        "nslices": 64,
+        "max_size": 1024,
+        "mem_red": 64.0,
+        "flops": 4304896,
+        "overhead": 1.2740902095418492
+      },
+      {
+        "target": 512,
+        "k": 7,
+        "nslices": 128,
+        "max_size": 512,
+        "mem_red": 128.0,
+        "flops": 5015040,
+        "overhead": 1.4842666035278798
+      },
+      {
+        "target": 256,
+        "k": 9,
+        "nslices": 512,
+        "max_size": 256,
+        "mem_red": 256.0,
+        "flops": 9189376,
+        "overhead": 2.7197158754587427
+      }
+    ],
+    "random": [
+      {
+        "k": 3,
+        "nslices": 8,
+        "mean_size": 51773.44,
+        "min_size": 16384,
+        "mem_red": 1.2658227848101264,
+        "mean_flops": 19721816.96,
+        "mean_overhead": 5.836929371374453
+      },
+      {
+        "k": 4,
+        "nslices": 16,
+        "mean_size": 56360.96,
+        "min_size": 32768,
+        "mem_red": 1.1627906976744187,
+        "mean_flops": 43226846.72,
+        "mean_overhead": 12.793549994080738
+      },
+      {
+        "k": 5,
+        "nslices": 32,
+        "mean_size": 51773.44,
+        "min_size": 16384,
+        "mem_red": 1.2658227848101264,
+        "mean_flops": 72430812.16,
+        "mean_overhead": 21.436845081093878
+      },
+      {
+        "k": 6,
+        "nslices": 64,
+        "mean_size": 42598.4,
+        "min_size": 16384,
+        "mem_red": 1.5384615384615383,
+        "mean_flops": 110634004.48,
+        "mean_overhead": 32.74357892742986
+      },
+      {
+        "k": 7,
+        "nslices": 128,
+        "mean_size": 49807.36,
+        "min_size": 16384,
+        "mem_red": 1.3157894736842106,
+        "mean_flops": 255434526.72,
+        "mean_overhead": 75.59918513081567
+      },
+      {
+        "k": 9,
+        "nslices": 512,
+        "mean_size": 35717.12,
+        "min_size": 8192,
+        "mem_red": 1.8348623853211008,
+        "mean_flops": 702148567.04,
+        "mean_overhead": 207.8100411507044
+      }
+    ],
+    "suboptimal": [
+      {
+        "k": 3,
+        "nslices": 8,
+        "max_size": 65536,
+        "mem_red": 1.0,
+        "flops": 27030208,
+        "overhead": 7.999943175091748
+      },
+      {
+        "k": 4,
+        "nslices": 16,
+        "max_size": 65536,
+        "mem_red": 1.0,
+        "flops": 54060288,
+        "overhead": 15.99984846691133
+      },
+      {
+        "k": 5,
+        "nslices": 32,
+        "max_size": 65536,
+        "mem_red": 1.0,
+        "flops": 108120320,
+        "overhead": 31.999621167278324
+      },
+      {
+        "k": 6,
+        "nslices": 64,
+        "max_size": 65536,
+        "mem_red": 1.0,
+        "flops": 216239872,
+        "overhead": 63.999015034923644
+      },
+      {
+        "k": 7,
+        "nslices": 128,
+        "max_size": 65536,
+        "mem_red": 1.0,
+        "flops": 432479232,
+        "overhead": 127.9978785367586
+      },
+      {
+        "k": 9,
+        "nslices": 512,
+        "max_size": 65536,
+        "mem_red": 1.0,
+        "flops": 1729906688,
+        "overhead": 511.98848348526104
+      }
+    ]
+  }
+}
