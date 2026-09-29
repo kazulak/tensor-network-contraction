@@ -39,4 +39,4 @@ reviews/panel/panel.sh reviews/YYYY-MM-topics      # MODEL, CHAIR, TIMEOUT can b
 
 | Run | Topics reviewed | Result |
 |---|---|---|
-| [2026-09-topics](2026-09-topics/) | 00–03 | [REPORT.md](2026-09-topics/REPORT.md): 14 changes. [CHECK.md](2026-09-topics/CHECK.md): all 6 code findings confirmed; 1 physics error and several unsourced claims in the prose |
+| [2026-09-topics](2026-09-topics/) | 00–03 | [REPORT.md](2026-09-topics/REPORT.md): 14 changes. [CHECK.md](2026-09-topics/CHECK.md): all 6 code findings confirmed; 1 physics error and several unsourced claims in the prose. [APPLIED.md](2026-09-topics/APPLIED.md): what changed |

@@ -10,8 +10,8 @@ against an exact reference. The rules are in [GUIDELINES.md](../GUIDELINES.md).
 | 02 | [Contraction order and cost](02-contraction-order-and-cost/) | Gray & Kourtis §2; Markov & Shi Thm 1.1 | done |
 | 03 | [Slicing](03-slicing/) | Gray & Kourtis §4.7.1 | done |
 | 04 | Parallel contraction | Huang et al. 2020; Williams et al. 2009 | planned |
-| 05 | MPS and SVD truncation | Orús 2014; Schollwöck 2011 | planned |
-| 06 | MPS circuit simulation | Vidal 2003; Zhou et al. 2020 | planned |
+| 05 | MPS, canonical form and SVD truncation | Orús 2014; Schollwöck 2011 | planned |
+| 06 | MPS circuit simulation (TEBD) | Vidal 2003; Zhou et al. 2020 | planned |
 | 07 | DMRG | Schollwöck 2011 | planned |
 
 Each topic folder is self-contained (it only needs `numpy` and `opt_einsum`), so it can be

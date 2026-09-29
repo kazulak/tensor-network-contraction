@@ -23,12 +23,12 @@ of specific papers will get their own standalone repositories.
 
 | # | Topic | Established and checked |
 |---|---|---|
-| 00 | [Tensor network basics](topics/00-tensor-network-basics/) | The order of pairwise contractions decides the memory needed; a network can count graph colourings |
+| 00 | [Tensor network basics](topics/00-tensor-network-basics/) | The order of pairwise contractions decides the memory and time needed; a network can count graph colourings |
 | 01 | [Circuits as tensor networks](topics/01-circuits-as-tensor-networks/) | Closed/open circuit networks reproduce the state vector exactly (GHZ, QFT, random U(4)) |
 | 02 | [Contraction order and cost](topics/02-contraction-order-and-cost/) | Best contraction width is constant on a ring and grows like L on an L×L grid |
 | 03 | [Slicing](topics/03-slicing/) | Slicing trades memory for work: 8× less memory costs ~14% more, 256× less costs ~1300× more |
 
-Next: parallel contraction, MPS and SVD truncation, MPS circuit simulation, DMRG.
+Next: parallel contraction, MPS and SVD truncation, MPS circuit simulation (TEBD), DMRG.
 See [PLAN.md](PLAN.md).
 
 ## Running
