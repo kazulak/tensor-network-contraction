@@ -1,0 +1,58 @@
+...
+1D n=8 d=6: |amp|=3.500e-02  |unsliced - statevector|=3.12e-17
+.
+1D n=7 d=9: |amp|=4.328e-02  |unsliced - statevector|=2.11e-17
+.
+2D 3x3 d=8: |amp|=2.582e-02  |unsliced - statevector|=4.29e-17
+.
+2D 2x4 d=6: |amp|=3.824e-02  |unsliced - statevector|=2.86e-17
+.
+1D n=8 d=6 uniform k=7: |sliced sum - unsliced|=3.68e-17  |sliced sum - statevector|=3.96e-17
+.
+1D n=7 d=9 uniform k=7: |sliced sum - unsliced|=4.39e-17  |sliced sum - statevector|=4.56e-17
+.
+2D 3x3 d=8 uniform k=7: |sliced sum - unsliced|=2.43e-17  |sliced sum - statevector|=6.67e-17
+.
+2D 2x4 d=6 uniform k=7: |sliced sum - unsliced|=1.43e-17  |sliced sum - statevector|=3.20e-17
+.
+1D n=8 d=6 memory k=7: |sliced sum - unsliced|=1.21e-17  |sliced sum - statevector|=1.91e-17
+.
+1D n=7 d=9 memory k=7: |sliced sum - unsliced|=4.23e-17  |sliced sum - statevector|=3.10e-17
+.
+2D 3x3 d=8 memory k=4: |sliced sum - unsliced|=9.81e-18  |sliced sum - statevector|=3.49e-17
+.
+2D 2x4 d=6 memory k=7: |sliced sum - unsliced|=2.93e-17  |sliced sum - statevector|=3.92e-17
+.
+1D n=8 d=6 greedy k=7: |sliced sum - unsliced|=1.55e-17  |sliced sum - statevector|=1.87e-17
+.
+1D n=7 d=9 greedy k=3: |sliced sum - unsliced|=5.30e-17  |sliced sum - statevector|=4.91e-17
+.
+2D 3x3 d=8 greedy k=3: |sliced sum - unsliced|=2.19e-17  |sliced sum - statevector|=2.71e-17
+.
+2D 2x4 d=6 greedy k=7: |sliced sum - unsliced|=2.93e-17  |sliced sum - statevector|=3.92e-17
+.
+1D n=8 d=6 ctg-slice k=7: |sliced sum - unsliced|=1.11e-17  |sliced sum - statevector|=2.36e-17
+.
+1D n=7 d=9 ctg-slice k=4: |sliced sum - unsliced|=2.50e-17  |sliced sum - statevector|=2.53e-17
+.
+2D 3x3 d=8 ctg-slice k=3: |sliced sum - unsliced|=2.19e-17  |sliced sum - statevector|=2.71e-17
+.
+2D 2x4 d=6 ctg-slice k=7: |sliced sum - unsliced|=2.93e-17  |sliced sum - statevector|=3.92e-17
+.
+1D n=8 d=6 ctg-reconf k=4: |sliced sum - unsliced|=1.48e-17  |sliced sum - statevector|=2.09e-17
+.
+1D n=7 d=9 ctg-reconf k=2: |sliced sum - unsliced|=3.47e-18  |sliced sum - statevector|=4.39e-17
+.
+2D 3x3 d=8 ctg-reconf k=2: |sliced sum - unsliced|=2.45e-17  |sliced sum - statevector|=2.98e-17
+.
+2D 2x4 d=6 ctg-reconf k=7: |sliced sum - unsliced|=6.94e-18  |sliced sum - statevector|=3.42e-17
+.
+2D 6x6 d12, k=5: |amp|=4.251e-07 rel. diff=3.66e-15 MACs sliced/unsliced=1.705
+.
+============================== warnings summary ===============================
+test_tnslice.py::test_network_matches_statevector_and_counts[1D n=8 d=6]
+  <python>\Lib\site-packages\cotengra\hyperoptimizers\hyper.py:75: UserWarning: Couldn't find `optuna`, `cmaes`, or `nevergrad` so will use completely random sampling in place of hyper-optimization. It is recommended to install one of these libraries for higher quality hyper-optimization.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+28 passed, 1 warning in 2.86s

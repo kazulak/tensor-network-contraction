@@ -1,0 +1,6702 @@
+{
+ "rows": [
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 66,
+   "log2big": 18,
+   "log2_overhead": 63.5562016586487
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 24,
+   "log2big": 18,
+   "log2_overhead": 22.44909710891986
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 167,
+   "log2big": 18,
+   "log2_overhead": 162.18886786976685
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 17,
+   "log2big": 18,
+   "log2_overhead": 15.629561137476546
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 64,
+   "log2big": 18,
+   "log2_overhead": 61.668340402659695
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 20,
+   "log2big": 18,
+   "log2_overhead": 17.903719464942593
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 71,
+   "log2big": 18,
+   "log2_overhead": 68.55750036068497
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 22,
+   "log2big": 18,
+   "log2_overhead": 20.161249743060896
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 73,
+   "log2big": 18,
+   "log2_overhead": 70.4123775412145
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 24,
+   "log2big": 18,
+   "log2_overhead": 22.369073688711058
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 4,
+   "log2big": 18,
+   "log2_overhead": 2.892518340229664
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 5,
+   "log2big": 18,
+   "log2_overhead": 3.636818929417725
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 1,
+   "k": 3,
+   "log2big": 18,
+   "log2_overhead": 1.8335556148381151
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 143,
+   "log2big": 17,
+   "log2_overhead": 138.55223463278742
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 34,
+   "log2big": 17,
+   "log2_overhead": 31.182393249415593
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 203,
+   "log2big": 17,
+   "log2_overhead": 196.778576312498
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 33,
+   "log2big": 17,
+   "log2_overhead": 29.876048241981064
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 112,
+   "log2big": 17,
+   "log2_overhead": 108.12353840916393
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 40,
+   "log2big": 17,
+   "log2_overhead": 37.32343024213387
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 194,
+   "log2big": 17,
+   "log2_overhead": 189.07072859997632
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 46,
+   "log2big": 17,
+   "log2_overhead": 43.09918308522387
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 105,
+   "log2big": 17,
+   "log2_overhead": 101.24875189361191
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 45,
+   "log2big": 17,
+   "log2_overhead": 42.04456036860961
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 9,
+   "log2big": 17,
+   "log2_overhead": 6.928793277706436
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 13,
+   "log2big": 17,
+   "log2_overhead": 10.220870811942252
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 2,
+   "k": 6,
+   "log2big": 17,
+   "log2_overhead": 3.8084378403232044
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 241,
+   "log2big": 15,
+   "log2_overhead": 233.39603500627902
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 75,
+   "log2big": 15,
+   "log2_overhead": 70.08236260028362
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 277,
+   "log2big": 15,
+   "log2_overhead": 268.7572834943218
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 81,
+   "log2big": 15,
+   "log2_overhead": 75.84245326949537
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 213,
+   "log2big": 15,
+   "log2_overhead": 206.0832858233447
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 71,
+   "log2big": 15,
+   "log2_overhead": 66.08779719067807
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 227,
+   "log2big": 15,
+   "log2_overhead": 220.2957094469389
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 72,
+   "log2big": 15,
+   "log2_overhead": 66.82028736630775
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 221,
+   "log2big": 15,
+   "log2_overhead": 213.12995057594202
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 96,
+   "log2big": 15,
+   "log2_overhead": 91.02189234226906
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 23,
+   "log2big": 15,
+   "log2_overhead": 18.917664201878335
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 25,
+   "log2big": 15,
+   "log2_overhead": 20.607322465782747
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 4,
+   "k": 14,
+   "log2big": 15,
+   "log2_overhead": 9.080541508842035
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 280,
+   "log2big": 13,
+   "log2_overhead": 270.6503354033518
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 133,
+   "log2big": 13,
+   "log2_overhead": 125.83482891200276
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 327,
+   "log2big": 13,
+   "log2_overhead": 316.51582153575134
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 133,
+   "log2big": 13,
+   "log2_overhead": 126.0680225723759
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 269,
+   "log2big": 13,
+   "log2_overhead": 259.7020055272634
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 132,
+   "log2big": 13,
+   "log2_overhead": 124.26678329748046
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 314,
+   "log2big": 13,
+   "log2_overhead": 304.1446420068806
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 153,
+   "log2big": 13,
+   "log2_overhead": 145.67577225086274
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 323,
+   "log2big": 13,
+   "log2_overhead": 312.32181567606057
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 128,
+   "log2big": 13,
+   "log2_overhead": 121.01359422598432
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 43,
+   "log2big": 13,
+   "log2_overhead": 36.773581541605665
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 42,
+   "log2big": 13,
+   "log2_overhead": 35.87385622204479
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 6,
+   "k": 21,
+   "log2big": 13,
+   "log2_overhead": 14.278993991082569
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 333,
+   "log2big": 11,
+   "log2_overhead": 321.51995457311534
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 190,
+   "log2big": 11,
+   "log2_overhead": 180.30284643949398
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 381,
+   "log2big": 11,
+   "log2_overhead": 368.83618882098125
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 175,
+   "log2big": 11,
+   "log2_overhead": 165.8213274195021
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 307,
+   "log2big": 11,
+   "log2_overhead": 296.05417359708423
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 186,
+   "log2big": 11,
+   "log2_overhead": 176.6171291814545
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 333,
+   "log2big": 11,
+   "log2_overhead": 321.9399381746882
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 184,
+   "log2big": 11,
+   "log2_overhead": 174.33910352678188
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 361,
+   "log2big": 11,
+   "log2_overhead": 348.9129217595135
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 171,
+   "log2big": 11,
+   "log2_overhead": 161.74300064799002
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 68,
+   "log2big": 11,
+   "log2_overhead": 59.601046428844384
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 80,
+   "log2big": 11,
+   "log2_overhead": 70.54102132113482
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 8,
+   "k": 29,
+   "log2big": 11,
+   "log2_overhead": 19.82849957731604
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 140,
+   "log2big": 18,
+   "log2_overhead": 135.4961952973562
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 19,
+   "log2big": 18,
+   "log2_overhead": 17.531547501064825
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 108,
+   "log2big": 18,
+   "log2_overhead": 104.43526398498925
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 24,
+   "log2big": 18,
+   "log2_overhead": 22.329665843549957
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 40,
+   "log2big": 18,
+   "log2_overhead": 38.185758437564374
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 27,
+   "log2big": 18,
+   "log2_overhead": 25.270790361108087
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 95,
+   "log2big": 18,
+   "log2_overhead": 92.55467614071752
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 24,
+   "log2big": 18,
+   "log2_overhead": 22.211328401098132
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 79,
+   "log2big": 18,
+   "log2_overhead": 76.49618503315651
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 23,
+   "log2big": 18,
+   "log2_overhead": 21.32877351137643
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 9,
+   "log2big": 18,
+   "log2_overhead": 7.331412311772073
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 9,
+   "log2big": 18,
+   "log2_overhead": 7.306765291252706
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 169,
+   "log2big": 17,
+   "log2_overhead": 163.77560996183442
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 41,
+   "log2big": 17,
+   "log2_overhead": 38.150305370182366
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 158,
+   "log2big": 17,
+   "log2_overhead": 152.98718190574135
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 38,
+   "log2big": 17,
+   "log2_overhead": 35.165168782913426
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 103,
+   "log2big": 17,
+   "log2_overhead": 99.070284304032
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 47,
+   "log2big": 17,
+   "log2_overhead": 44.112932018052405
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 119,
+   "log2big": 17,
+   "log2_overhead": 115.4315271834539
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 42,
+   "log2big": 17,
+   "log2_overhead": 39.05467634800108
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 176,
+   "log2big": 17,
+   "log2_overhead": 170.6803948604913
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 50,
+   "log2big": 17,
+   "log2_overhead": 47.09583301492685
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 15,
+   "log2big": 17,
+   "log2_overhead": 12.478188485361873
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 16,
+   "log2big": 17,
+   "log2_overhead": 13.289822371324039
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 277,
+   "log2big": 15,
+   "log2_overhead": 268.37462453630445
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 93,
+   "log2big": 15,
+   "log2_overhead": 87.93024038247022
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 206,
+   "log2big": 15,
+   "log2_overhead": 199.34681229585414
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 88,
+   "log2big": 15,
+   "log2_overhead": 82.86089469556498
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 239,
+   "log2big": 15,
+   "log2_overhead": 230.95574503543307
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 87,
+   "log2big": 15,
+   "log2_overhead": 82.00261863383489
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 231,
+   "log2big": 15,
+   "log2_overhead": 224.2100240116923
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 94,
+   "log2big": 15,
+   "log2_overhead": 88.71905805567454
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 253,
+   "log2big": 15,
+   "log2_overhead": 245.6596067544585
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 78,
+   "log2big": 15,
+   "log2_overhead": 72.7616918871315
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 30,
+   "log2big": 15,
+   "log2_overhead": 25.48950697124133
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 33,
+   "log2big": 15,
+   "log2_overhead": 28.072501111005554
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 307,
+   "log2big": 13,
+   "log2_overhead": 296.77047406839733
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 149,
+   "log2big": 13,
+   "log2_overhead": 141.48239759801697
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 297,
+   "log2big": 13,
+   "log2_overhead": 286.75990900549624
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 154,
+   "log2big": 13,
+   "log2_overhead": 146.25036300218213
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 270,
+   "log2big": 13,
+   "log2_overhead": 260.89301146713495
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 152,
+   "log2big": 13,
+   "log2_overhead": 144.79217398119596
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 306,
+   "log2big": 13,
+   "log2_overhead": 296.43004741940143
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 173,
+   "log2big": 13,
+   "log2_overhead": 164.81835009839008
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 303,
+   "log2big": 13,
+   "log2_overhead": 293.4746052601884
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 163,
+   "log2big": 13,
+   "log2_overhead": 155.7142662856584
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 48,
+   "log2big": 13,
+   "log2_overhead": 41.46833722317815
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 49,
+   "log2big": 13,
+   "log2_overhead": 42.28754141202849
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 336,
+   "log2big": 11,
+   "log2_overhead": 324.59601930171897
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 218,
+   "log2big": 11,
+   "log2_overhead": 208.13036491878776
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 342,
+   "log2big": 11,
+   "log2_overhead": 330.1395842475947
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 213,
+   "log2big": 11,
+   "log2_overhead": 203.02339424482764
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 356,
+   "log2big": 11,
+   "log2_overhead": 344.2038175194395
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 219,
+   "log2big": 11,
+   "log2_overhead": 209.28076189457082
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 359,
+   "log2big": 11,
+   "log2_overhead": 347.229495049082
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 184,
+   "log2big": 11,
+   "log2_overhead": 174.3052419993981
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 351,
+   "log2big": 11,
+   "log2_overhead": 339.41311505296295
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 200,
+   "log2big": 11,
+   "log2_overhead": 190.3776718585961
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 68,
+   "log2big": 11,
+   "log2_overhead": 59.519723260384836
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 70,
+   "log2big": 11,
+   "log2_overhead": 61.276072131536054
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 112,
+   "log2big": 18,
+   "log2_overhead": 108.62123337949421
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 20,
+   "log2big": 18,
+   "log2_overhead": 18.387327271277044
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 78,
+   "log2big": 18,
+   "log2_overhead": 75.54176861932078
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 18,
+   "log2big": 18,
+   "log2_overhead": 16.11722054259574
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 101,
+   "log2big": 18,
+   "log2_overhead": 98.17466332879602
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 18,
+   "log2big": 18,
+   "log2_overhead": 16.55799128234078
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 127,
+   "log2big": 18,
+   "log2_overhead": 123.57505834567775
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 14,
+   "log2big": 18,
+   "log2_overhead": 12.48008963753584
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 78,
+   "log2big": 18,
+   "log2_overhead": 75.28968864041985
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 12,
+   "log2big": 18,
+   "log2_overhead": 10.521865568162148
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 5,
+   "log2big": 18,
+   "log2_overhead": 3.9290331660248228
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 8,
+   "log2big": 18,
+   "log2_overhead": 6.1550890307823
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 160,
+   "log2big": 17,
+   "log2_overhead": 155.115576116713
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 32,
+   "log2big": 17,
+   "log2_overhead": 29.684763446789304
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 140,
+   "log2big": 17,
+   "log2_overhead": 136.01614581282203
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 39,
+   "log2big": 17,
+   "log2_overhead": 35.96754604798371
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 137,
+   "log2big": 17,
+   "log2_overhead": 132.60574697881785
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 32,
+   "log2big": 17,
+   "log2_overhead": 29.217413983193268
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 135,
+   "log2big": 17,
+   "log2_overhead": 131.0190061972192
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 54,
+   "log2big": 17,
+   "log2_overhead": 50.866190776359936
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 85,
+   "log2big": 17,
+   "log2_overhead": 81.76528431687572
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 31,
+   "log2big": 17,
+   "log2_overhead": 28.26462137525035
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 10,
+   "log2big": 17,
+   "log2_overhead": 7.910986228126035
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 13,
+   "log2big": 17,
+   "log2_overhead": 10.277698613770298
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 242,
+   "log2big": 15,
+   "log2_overhead": 234.9450101702704
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 82,
+   "log2big": 15,
+   "log2_overhead": 76.58717096961158
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 212,
+   "log2big": 15,
+   "log2_overhead": 205.12474776483714
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 74,
+   "log2big": 15,
+   "log2_overhead": 68.91807242375512
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 245,
+   "log2big": 15,
+   "log2_overhead": 237.34607029519987
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 87,
+   "log2big": 15,
+   "log2_overhead": 81.47083239442114
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 168,
+   "log2big": 15,
+   "log2_overhead": 162.2046765862102
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 74,
+   "log2big": 15,
+   "log2_overhead": 69.13252964391381
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 223,
+   "log2big": 15,
+   "log2_overhead": 214.72601662253643
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 85,
+   "log2big": 15,
+   "log2_overhead": 79.89846756273084
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 24,
+   "log2big": 15,
+   "log2_overhead": 19.801355883005492
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 27,
+   "log2big": 15,
+   "log2_overhead": 22.36923849290193
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 305,
+   "log2big": 13,
+   "log2_overhead": 295.2277024859318
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 127,
+   "log2big": 13,
+   "log2_overhead": 120.00317914974195
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 283,
+   "log2big": 13,
+   "log2_overhead": 273.682177234979
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 121,
+   "log2big": 13,
+   "log2_overhead": 114.01268089011029
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 285,
+   "log2big": 13,
+   "log2_overhead": 275.6933845857634
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 117,
+   "log2big": 13,
+   "log2_overhead": 109.36452240472602
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 276,
+   "log2big": 13,
+   "log2_overhead": 266.67622960199833
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 134,
+   "log2big": 13,
+   "log2_overhead": 126.5861903410393
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 264,
+   "log2big": 13,
+   "log2_overhead": 254.24686974710193
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 125,
+   "log2big": 13,
+   "log2_overhead": 117.74312815465197
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 44,
+   "log2big": 13,
+   "log2_overhead": 37.69258582035936
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 50,
+   "log2big": 13,
+   "log2_overhead": 43.03927906169677
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 341,
+   "log2big": 11,
+   "log2_overhead": 329.441072542372
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 181,
+   "log2big": 11,
+   "log2_overhead": 171.6782698325908
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 327,
+   "log2big": 11,
+   "log2_overhead": 315.3811070792695
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 168,
+   "log2big": 11,
+   "log2_overhead": 158.8929785927296
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 346,
+   "log2big": 11,
+   "log2_overhead": 334.1189388781345
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 154,
+   "log2big": 11,
+   "log2_overhead": 144.75845183585574
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 320,
+   "log2big": 11,
+   "log2_overhead": 308.73802646696225
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 160,
+   "log2big": 11,
+   "log2_overhead": 150.6316699641998
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 330,
+   "log2big": 11,
+   "log2_overhead": 317.75357870393805
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 173,
+   "log2big": 11,
+   "log2_overhead": 163.48011072431152
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 70,
+   "log2big": 11,
+   "log2_overhead": 61.50916423583251
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 74,
+   "log2big": 11,
+   "log2_overhead": 65.15029300091516
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 12,
+   "log2big": 17,
+   "log2_overhead": 11.046692288738932
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.5316369912578551
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 32,
+   "log2big": 17,
+   "log2_overhead": 31.093633682586983
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.12443796457606382
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 61,
+   "log2big": 17,
+   "log2_overhead": 59.330632416805905
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.7890937451254203
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 7,
+   "log2big": 17,
+   "log2_overhead": 5.598510585160348
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.12443796457606382
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 11,
+   "log2big": 17,
+   "log2_overhead": 9.711715940860394
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.8308191607201607
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.06939218051797269
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.06939218051797269
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.06584843773590165
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 39,
+   "log2big": 16,
+   "log2_overhead": 36.99744201032923
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 4,
+   "log2big": 16,
+   "log2_overhead": 1.3895908524134093
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 66,
+   "log2big": 16,
+   "log2_overhead": 62.95350855973907
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.2608853529444808
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 91,
+   "log2big": 16,
+   "log2_overhead": 87.29465712827644
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 5,
+   "log2big": 16,
+   "log2_overhead": 2.6417928251931215
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 20,
+   "log2big": 16,
+   "log2_overhead": 17.192564990206698
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.2608853529444808
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 45,
+   "log2big": 16,
+   "log2_overhead": 42.62241847144545
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 3,
+   "log2big": 16,
+   "log2_overhead": 1.0474048221222176
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.15171625020483148
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.15171625020483148
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.08235338960904315
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 115,
+   "log2big": 14,
+   "log2_overhead": 109.21809349744197
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 11,
+   "log2big": 14,
+   "log2_overhead": 6.020645524636034
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 87,
+   "log2big": 14,
+   "log2_overhead": 82.22609051754807
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 8,
+   "log2big": 14,
+   "log2_overhead": 3.599445591709866
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 137,
+   "log2big": 14,
+   "log2_overhead": 129.54569266104397
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 11,
+   "log2big": 14,
+   "log2_overhead": 6.139265418752686
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 30,
+   "log2big": 14,
+   "log2_overhead": 25.84169544646418
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 10,
+   "log2big": 14,
+   "log2_overhead": 5.472443627352714
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 51,
+   "log2big": 14,
+   "log2_overhead": 46.766071570732954
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 9,
+   "log2big": 14,
+   "log2_overhead": 4.916166752107248
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 4,
+   "log2big": 14,
+   "log2_overhead": 0.4630866705262484
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 4,
+   "log2big": 14,
+   "log2_overhead": 0.4630866705262484
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 4,
+   "k": 5,
+   "log2big": 13,
+   "log2_overhead": 0.5998373376105732
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 157,
+   "log2big": 12,
+   "log2_overhead": 148.68044333670295
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 18,
+   "log2big": 12,
+   "log2_overhead": 11.775668614079287
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 129,
+   "log2big": 12,
+   "log2_overhead": 122.5366681075624
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 22,
+   "log2big": 12,
+   "log2_overhead": 14.712199331389272
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 145,
+   "log2big": 12,
+   "log2_overhead": 136.23665092707293
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 16,
+   "log2big": 12,
+   "log2_overhead": 9.409963517753447
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 82,
+   "log2big": 12,
+   "log2_overhead": 75.19736352988909
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 19,
+   "log2big": 12,
+   "log2_overhead": 12.599851667760824
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 112,
+   "log2big": 12,
+   "log2_overhead": 104.81762651618621
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 24,
+   "log2big": 12,
+   "log2_overhead": 16.629186011808173
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 8,
+   "log2big": 12,
+   "log2_overhead": 2.2822852586740865
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 9,
+   "log2big": 12,
+   "log2_overhead": 2.767458642601131
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 6,
+   "k": 6,
+   "log2big": 12,
+   "log2_overhead": 0.8424264065287446
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 179,
+   "log2big": 10,
+   "log2_overhead": 168.61075851591687
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 30,
+   "log2big": 10,
+   "log2_overhead": 21.39693708456175
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 166,
+   "log2big": 10,
+   "log2_overhead": 157.22720725160187
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 30,
+   "log2big": 10,
+   "log2_overhead": 21.56983043463657
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 157,
+   "log2big": 10,
+   "log2_overhead": 146.96988589073484
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 29,
+   "log2big": 10,
+   "log2_overhead": 20.507561074595124
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 137,
+   "log2big": 10,
+   "log2_overhead": 127.3079504719478
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 28,
+   "log2big": 10,
+   "log2_overhead": 19.44188556999213
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 174,
+   "log2big": 10,
+   "log2_overhead": 164.9220892591562
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 26,
+   "log2big": 10,
+   "log2_overhead": 17.738992233836846
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 14,
+   "log2big": 10,
+   "log2_overhead": 6.2258955418204245
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 15,
+   "log2big": 10,
+   "log2_overhead": 6.880666364367546
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 8,
+   "k": 10,
+   "log2big": 10,
+   "log2_overhead": 2.4505146884652405
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 21,
+   "log2big": 17,
+   "log2_overhead": 19.68643877695764
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 17,
+   "log2_overhead": 2.273862161764704
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 37,
+   "log2big": 17,
+   "log2_overhead": 34.61392191995142
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.799643908713211
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 34,
+   "log2big": 17,
+   "log2_overhead": 31.886522800457325
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.8663309786789775
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 9,
+   "log2big": 17,
+   "log2_overhead": 7.792698355885452
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.7526157114272785
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 34,
+   "log2big": 17,
+   "log2_overhead": 32.11490978241957
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 17,
+   "log2_overhead": 0.7945952630548412
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.07707928278864884
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.07707928278864884
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 38,
+   "log2big": 16,
+   "log2_overhead": 35.2192938638793
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 5,
+   "log2big": 16,
+   "log2_overhead": 2.368423110783411
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 47,
+   "log2big": 16,
+   "log2_overhead": 43.99906588757396
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 3,
+   "log2big": 16,
+   "log2_overhead": 0.9962690257423787
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 74,
+   "log2big": 16,
+   "log2_overhead": 70.47222319258823
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 3,
+   "log2big": 16,
+   "log2_overhead": 0.8231735829555937
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 28,
+   "log2big": 16,
+   "log2_overhead": 25.298989615461235
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 6,
+   "log2big": 16,
+   "log2_overhead": 3.3555728841168353
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 38,
+   "log2big": 16,
+   "log2_overhead": 35.296833964921234
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 3,
+   "log2big": 16,
+   "log2_overhead": 0.9347099050935697
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.19196175761323886
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.19196175761323886
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 78,
+   "log2big": 14,
+   "log2_overhead": 72.56517202260777
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 12,
+   "log2big": 14,
+   "log2_overhead": 7.405565829213376
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 60,
+   "log2big": 14,
+   "log2_overhead": 55.06934229500246
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 8,
+   "log2big": 14,
+   "log2_overhead": 3.8134532251553352
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 108,
+   "log2big": 14,
+   "log2_overhead": 102.16789294586177
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 11,
+   "log2big": 14,
+   "log2_overhead": 6.046610844750997
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 106,
+   "log2big": 14,
+   "log2_overhead": 100.00496217142113
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 10,
+   "log2big": 14,
+   "log2_overhead": 5.466849037309938
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 72,
+   "log2big": 14,
+   "log2_overhead": 67.05951083224122
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 11,
+   "log2big": 14,
+   "log2_overhead": 6.884473369672207
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 5,
+   "log2big": 14,
+   "log2_overhead": 1.145588738390643
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 5,
+   "log2big": 14,
+   "log2_overhead": 1.0856941475246664
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 141,
+   "log2big": 12,
+   "log2_overhead": 133.45032726744694
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 13,
+   "log2big": 12,
+   "log2_overhead": 6.616840716528998
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 141,
+   "log2big": 12,
+   "log2_overhead": 132.39562877711964
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 17,
+   "log2big": 12,
+   "log2_overhead": 10.638060444889074
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 136,
+   "log2big": 12,
+   "log2_overhead": 128.0402021703071
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 19,
+   "log2big": 12,
+   "log2_overhead": 11.908407379995548
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 120,
+   "log2big": 12,
+   "log2_overhead": 112.18164441008342
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 18,
+   "log2big": 12,
+   "log2_overhead": 11.694570058176577
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 142,
+   "log2big": 12,
+   "log2_overhead": 134.90775218502023
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 16,
+   "log2big": 12,
+   "log2_overhead": 9.65328966525863
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 10,
+   "log2big": 12,
+   "log2_overhead": 3.782448320632529
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 10,
+   "log2big": 12,
+   "log2_overhead": 3.717809449090737
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 167,
+   "log2big": 10,
+   "log2_overhead": 157.1099565676061
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 29,
+   "log2big": 10,
+   "log2_overhead": 20.44430765188741
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 150,
+   "log2big": 10,
+   "log2_overhead": 140.1261843405547
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 30,
+   "log2big": 10,
+   "log2_overhead": 21.341320887406933
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 186,
+   "log2big": 10,
+   "log2_overhead": 175.64017281478849
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 26,
+   "log2big": 10,
+   "log2_overhead": 17.37676310250578
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 224,
+   "log2big": 10,
+   "log2_overhead": 212.93919996173636
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 25,
+   "log2big": 10,
+   "log2_overhead": 16.85031752144656
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 172,
+   "log2big": 10,
+   "log2_overhead": 162.49182290648446
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 22,
+   "log2big": 10,
+   "log2_overhead": 14.21205590272584
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 15,
+   "log2big": 10,
+   "log2_overhead": 7.270414757408229
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 16,
+   "log2big": 10,
+   "log2_overhead": 7.939407907787274
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 68,
+   "log2big": 17,
+   "log2_overhead": 64.61590100079106
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 17,
+   "log2_overhead": 1.8830982140699213
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 6,
+   "log2big": 17,
+   "log2_overhead": 4.791008594455793
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.020785234946561815
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 4,
+   "log2big": 17,
+   "log2_overhead": 3.0163953895634847
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 5,
+   "log2big": 17,
+   "log2_overhead": 2.721235423109672
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 87,
+   "log2big": 17,
+   "log2_overhead": 83.60362379286009
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 17,
+   "log2_overhead": 1.1023254297319411
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 81,
+   "log2big": 17,
+   "log2_overhead": 77.95867785401067
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 17,
+   "log2_overhead": 2.1748635200184907
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.02071047365563672
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 17,
+   "log2_overhead": 0.02071047365563672
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 71,
+   "log2big": 16,
+   "log2_overhead": 66.63821326472711
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 8,
+   "log2big": 16,
+   "log2_overhead": 5.062433140410345
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 40,
+   "log2big": 16,
+   "log2_overhead": 36.719403044109
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 6,
+   "log2big": 16,
+   "log2_overhead": 2.999982481526434
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 41,
+   "log2big": 16,
+   "log2_overhead": 38.19047198899415
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 9,
+   "log2big": 16,
+   "log2_overhead": 5.718204885536178
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 103,
+   "log2big": 16,
+   "log2_overhead": 98.47779034315563
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 7,
+   "log2big": 16,
+   "log2_overhead": 4.519352461078608
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 103,
+   "log2big": 16,
+   "log2_overhead": 99.02043049070606
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 6,
+   "log2big": 16,
+   "log2_overhead": 3.0038881614468806
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.056885874798283
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 2,
+   "log2big": 16,
+   "log2_overhead": 0.056885874798283
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 86,
+   "log2big": 14,
+   "log2_overhead": 79.8283359226815
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 11,
+   "log2big": 14,
+   "log2_overhead": 6.562499741888203
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 116,
+   "log2big": 14,
+   "log2_overhead": 109.38424723006229
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 16,
+   "log2big": 14,
+   "log2_overhead": 10.858330204430327
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 101,
+   "log2big": 14,
+   "log2_overhead": 95.6389525082041
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 14,
+   "log2big": 14,
+   "log2_overhead": 8.441669323176736
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 145,
+   "log2big": 14,
+   "log2_overhead": 137.65290147282224
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 14,
+   "log2big": 14,
+   "log2_overhead": 9.213476224152924
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 118,
+   "log2big": 14,
+   "log2_overhead": 112.89131632339304
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 15,
+   "log2big": 14,
+   "log2_overhead": 9.298842674755274
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 4,
+   "log2big": 14,
+   "log2_overhead": 0.18132160676357145
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 4,
+   "log2big": 14,
+   "log2_overhead": 0.18132160676357145
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 120,
+   "log2big": 12,
+   "log2_overhead": 112.04447807392465
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 26,
+   "log2big": 12,
+   "log2_overhead": 18.22093666158438
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 162,
+   "log2big": 12,
+   "log2_overhead": 152.93730311429377
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 25,
+   "log2big": 12,
+   "log2_overhead": 17.30349941725183
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 161,
+   "log2big": 12,
+   "log2_overhead": 152.60974682436756
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 22,
+   "log2big": 12,
+   "log2_overhead": 14.800017237523303
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 153,
+   "log2big": 12,
+   "log2_overhead": 143.8963918790599
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 19,
+   "log2big": 12,
+   "log2_overhead": 11.951368669533185
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 156,
+   "log2big": 12,
+   "log2_overhead": 148.46508756859492
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 18,
+   "log2big": 12,
+   "log2_overhead": 11.28951622884465
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 7,
+   "log2big": 12,
+   "log2_overhead": 0.9701947417825139
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 7,
+   "log2big": 12,
+   "log2_overhead": 0.9701947417825139
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 156,
+   "log2big": 10,
+   "log2_overhead": 145.74614509544978
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 31,
+   "log2big": 10,
+   "log2_overhead": 22.214812292513646
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 174,
+   "log2big": 10,
+   "log2_overhead": 163.49221669517087
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 34,
+   "log2big": 10,
+   "log2_overhead": 24.87830839649725
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 180,
+   "log2big": 10,
+   "log2_overhead": 169.43412298952526
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 26,
+   "log2big": 10,
+   "log2_overhead": 17.32134426477575
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 174,
+   "log2big": 10,
+   "log2_overhead": 163.17086988228914
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 33,
+   "log2big": 10,
+   "log2_overhead": 23.67852751680842
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 201,
+   "log2big": 10,
+   "log2_overhead": 190.50573167651535
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 27,
+   "log2big": 10,
+   "log2_overhead": 18.238260999660216
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 12,
+   "log2big": 10,
+   "log2_overhead": 4.258735182000418
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 13,
+   "log2big": 10,
+   "log2_overhead": 4.943571408119205
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 156,
+   "log2big": 26,
+   "log2_overhead": 152.30862212596008
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 12,
+   "log2big": 26,
+   "log2_overhead": 10.679644805030186
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 134,
+   "log2big": 26,
+   "log2_overhead": 130.62295724166916
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 19,
+   "log2big": 26,
+   "log2_overhead": 17.31093075474749
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 126,
+   "log2big": 26,
+   "log2_overhead": 123.60557398785753
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 14,
+   "log2big": 26,
+   "log2_overhead": 12.054304769556538
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 52,
+   "log2big": 26,
+   "log2_overhead": 49.17712356924616
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 17,
+   "log2big": 26,
+   "log2_overhead": 15.238039834698206
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 112,
+   "log2big": 26,
+   "log2_overhead": 109.28858495147821
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 29,
+   "log2big": 26,
+   "log2_overhead": 26.605727951772415
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 2,
+   "log2big": 26,
+   "log2_overhead": 0.9109574748525375
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 2,
+   "log2big": 26,
+   "log2_overhead": 0.9109574748525375
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 1,
+   "k": 2,
+   "log2big": 26,
+   "log2_overhead": 0.5381764616070797
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 253,
+   "log2big": 25,
+   "log2_overhead": 247.0040279811746
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 33,
+   "log2big": 25,
+   "log2_overhead": 29.99212590407363
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 172,
+   "log2big": 25,
+   "log2_overhead": 167.84175666456468
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 38,
+   "log2big": 25,
+   "log2_overhead": 35.2553208425235
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 227,
+   "log2big": 25,
+   "log2_overhead": 222.09747081624113
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 33,
+   "log2big": 25,
+   "log2_overhead": 29.587632898389586
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 74,
+   "log2big": 25,
+   "log2_overhead": 70.76338341332293
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 53,
+   "log2big": 25,
+   "log2_overhead": 49.49965882551123
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 165,
+   "log2big": 25,
+   "log2_overhead": 161.02064918379685
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 19,
+   "log2big": 25,
+   "log2_overhead": 16.537845933706052
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 4,
+   "log2big": 25,
+   "log2_overhead": 1.9039145934982002
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 4,
+   "log2big": 25,
+   "log2_overhead": 1.9039145934982002
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 2,
+   "k": 5,
+   "log2big": 25,
+   "log2_overhead": 1.485124107031858
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 304,
+   "log2big": 23,
+   "log2_overhead": 296.3180462388713
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 80,
+   "log2big": 23,
+   "log2_overhead": 74.77448781084692
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 323,
+   "log2big": 23,
+   "log2_overhead": 314.8804301692746
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 100,
+   "log2big": 23,
+   "log2_overhead": 94.2991950034847
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 379,
+   "log2big": 23,
+   "log2_overhead": 371.04069535192264
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 75,
+   "log2big": 23,
+   "log2_overhead": 69.91864874040324
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 264,
+   "log2big": 23,
+   "log2_overhead": 256.7851858388074
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 92,
+   "log2big": 23,
+   "log2_overhead": 86.72841625970615
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 221,
+   "log2big": 23,
+   "log2_overhead": 214.8472895338046
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 59,
+   "log2big": 23,
+   "log2_overhead": 54.212379603360176
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 9,
+   "log2big": 23,
+   "log2_overhead": 4.980447883173504
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 13,
+   "log2big": 23,
+   "log2_overhead": 7.413178257174579
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 4,
+   "k": 9,
+   "log2big": 23,
+   "log2_overhead": 3.3700211672296376
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 339,
+   "log2big": 21,
+   "log2_overhead": 329.1429845472701
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 105,
+   "log2big": 21,
+   "log2_overhead": 97.87797097855551
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 363,
+   "log2big": 21,
+   "log2_overhead": 353.25032428192185
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 131,
+   "log2big": 21,
+   "log2_overhead": 123.73924551570855
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 561,
+   "log2big": 21,
+   "log2_overhead": 549.7912366438163
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 120,
+   "log2big": 21,
+   "log2_overhead": 112.51920610996964
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 419,
+   "log2big": 21,
+   "log2_overhead": 407.5237928847338
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 105,
+   "log2big": 21,
+   "log2_overhead": 97.98154364961005
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 279,
+   "log2big": 21,
+   "log2_overhead": 271.17523935043863
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 101,
+   "log2big": 21,
+   "log2_overhead": 93.53230703266519
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 17,
+   "log2big": 21,
+   "log2_overhead": 10.90656161271572
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 25,
+   "log2big": 21,
+   "log2_overhead": 17.37368136665961
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 401,
+   "log2big": 19,
+   "log2_overhead": 389.7245259004966
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 157,
+   "log2big": 19,
+   "log2_overhead": 147.38217482553083
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 433,
+   "log2big": 19,
+   "log2_overhead": 421.3954076130141
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 138,
+   "log2big": 19,
+   "log2_overhead": 128.83621076508356
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 580,
+   "log2big": 19,
+   "log2_overhead": 567.0890987842915
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 161,
+   "log2big": 19,
+   "log2_overhead": 151.74483236465926
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 476,
+   "log2big": 19,
+   "log2_overhead": 462.6515344318358
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 181,
+   "log2big": 19,
+   "log2_overhead": 171.89174692931613
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 418,
+   "log2big": 19,
+   "log2_overhead": 406.59103205710284
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 179,
+   "log2big": 19,
+   "log2_overhead": 169.58615677964988
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 30,
+   "log2big": 19,
+   "log2_overhead": 22.010613396766487
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 40,
+   "log2big": 19,
+   "log2_overhead": 30.5679185749203
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 42,
+   "log2big": 27,
+   "log2_overhead": 41.44633357461166
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 27,
+   "log2_overhead": 2.559562576306824
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 22,
+   "log2big": 27,
+   "log2_overhead": 21.217693208376787
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 27,
+   "log2_overhead": 3.322658679752365
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 25,
+   "log2big": 27,
+   "log2_overhead": 24.535653766494114
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 5,
+   "log2big": 27,
+   "log2_overhead": 4.247372142995033
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 4,
+   "log2big": 27,
+   "log2_overhead": 3.4183871942390383
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 27,
+   "log2_overhead": 1.3067494116818636
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 100,
+   "log2big": 27,
+   "log2_overhead": 98.13407687651511
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 27,
+   "log2_overhead": 3.5933390005203236
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 27,
+   "log2_overhead": 0.4023997104882042
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 27,
+   "log2_overhead": 0.4023997104882042
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 134,
+   "log2big": 26,
+   "log2_overhead": 130.6469796504594
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 27,
+   "log2big": 26,
+   "log2_overhead": 24.983775505776684
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 266,
+   "log2big": 26,
+   "log2_overhead": 260.59341759672344
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 23,
+   "log2big": 26,
+   "log2_overhead": 21.179931571287256
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 192,
+   "log2big": 26,
+   "log2_overhead": 188.4643923927274
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 9,
+   "log2big": 26,
+   "log2_overhead": 7.244369653014594
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 89,
+   "log2big": 26,
+   "log2_overhead": 86.59895272109028
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 36,
+   "log2big": 26,
+   "log2_overhead": 33.36071787547243
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 165,
+   "log2big": 26,
+   "log2_overhead": 161.88538154729792
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 15,
+   "log2big": 26,
+   "log2_overhead": 13.002751774374673
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 3,
+   "log2big": 26,
+   "log2_overhead": 1.5717417018179276
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 3,
+   "log2big": 26,
+   "log2_overhead": 1.5717417018179276
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 206,
+   "log2big": 24,
+   "log2_overhead": 200.29553072716513
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 43,
+   "log2big": 24,
+   "log2_overhead": 39.467620304367784
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 311,
+   "log2big": 24,
+   "log2_overhead": 304.2013768716791
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 32,
+   "log2big": 24,
+   "log2_overhead": 28.361796642885935
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 283,
+   "log2big": 24,
+   "log2_overhead": 277.4235723664138
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 57,
+   "log2big": 24,
+   "log2_overhead": 52.780706822651894
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 282,
+   "log2big": 24,
+   "log2_overhead": 275.5334409270697
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 47,
+   "log2big": 24,
+   "log2_overhead": 43.194446817834375
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 276,
+   "log2big": 24,
+   "log2_overhead": 270.2867651214192
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 54,
+   "log2big": 24,
+   "log2_overhead": 50.047387768799695
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 11,
+   "log2big": 24,
+   "log2_overhead": 7.651921203850613
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 14,
+   "log2big": 24,
+   "log2_overhead": 9.971723072807578
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 321,
+   "log2big": 22,
+   "log2_overhead": 312.13980955786656
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 117,
+   "log2big": 22,
+   "log2_overhead": 110.4169919999249
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 382,
+   "log2big": 22,
+   "log2_overhead": 373.45157523091416
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 105,
+   "log2big": 22,
+   "log2_overhead": 99.37607095263951
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 360,
+   "log2big": 22,
+   "log2_overhead": 352.2440352629332
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 80,
+   "log2big": 22,
+   "log2_overhead": 74.51181246848336
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 308,
+   "log2big": 22,
+   "log2_overhead": 299.85596415804906
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 109,
+   "log2big": 22,
+   "log2_overhead": 102.85695312970188
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 404,
+   "log2big": 22,
+   "log2_overhead": 394.4925628879317
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 83,
+   "log2big": 22,
+   "log2_overhead": 76.69631609735127
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 22,
+   "log2big": 22,
+   "log2_overhead": 16.697402317764286
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 29,
+   "log2big": 22,
+   "log2_overhead": 22.297313169193615
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 376,
+   "log2big": 20,
+   "log2_overhead": 365.55725129672754
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 126,
+   "log2big": 20,
+   "log2_overhead": 118.1648508584648
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 454,
+   "log2big": 20,
+   "log2_overhead": 443.56066321988004
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 149,
+   "log2big": 20,
+   "log2_overhead": 140.88706098300108
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 418,
+   "log2big": 20,
+   "log2_overhead": 407.73952608317177
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 150,
+   "log2big": 20,
+   "log2_overhead": 141.69356272563405
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 396,
+   "log2big": 20,
+   "log2_overhead": 385.5212504185298
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 132,
+   "log2big": 20,
+   "log2_overhead": 124.19952784353183
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 482,
+   "log2big": 20,
+   "log2_overhead": 470.3992304435226
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 119,
+   "log2big": 20,
+   "log2_overhead": 110.53971974806475
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 35,
+   "log2big": 20,
+   "log2_overhead": 27.623029935733385
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 45,
+   "log2big": 20,
+   "log2_overhead": 35.896910777830996
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 19,
+   "log2big": 26,
+   "log2_overhead": 17.840380411808354
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 14,
+   "log2big": 26,
+   "log2_overhead": 12.777657478900217
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 85,
+   "log2big": 26,
+   "log2_overhead": 82.44364087144561
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 8,
+   "log2big": 26,
+   "log2_overhead": 6.8836443528147555
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 107,
+   "log2big": 26,
+   "log2_overhead": 103.68082108782835
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 19,
+   "log2big": 26,
+   "log2_overhead": 17.718089291688692
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 43,
+   "log2big": 26,
+   "log2_overhead": 41.397981852683394
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 28,
+   "log2big": 26,
+   "log2_overhead": 26.37660874655264
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 123,
+   "log2big": 26,
+   "log2_overhead": 120.01061517862888
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 17,
+   "log2big": 26,
+   "log2_overhead": 15.573678189951195
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 2,
+   "log2big": 26,
+   "log2_overhead": 0.752932748946165
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 2,
+   "log2big": 26,
+   "log2_overhead": 0.752932748946165
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 241,
+   "log2big": 25,
+   "log2_overhead": 235.67610691291407
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 23,
+   "log2big": 25,
+   "log2_overhead": 20.526227698040366
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 110,
+   "log2big": 25,
+   "log2_overhead": 106.15195462292252
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 26,
+   "log2big": 25,
+   "log2_overhead": 23.715839518222545
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 108,
+   "log2big": 25,
+   "log2_overhead": 104.3684978729874
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 22,
+   "log2big": 25,
+   "log2_overhead": 19.15934463132801
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 201,
+   "log2big": 25,
+   "log2_overhead": 196.72125828789652
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 35,
+   "log2big": 25,
+   "log2_overhead": 32.16964390167788
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 165,
+   "log2big": 25,
+   "log2_overhead": 160.98337447040456
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 24,
+   "log2big": 25,
+   "log2_overhead": 21.66858477060387
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 4,
+   "log2big": 25,
+   "log2_overhead": 1.6657444495778506
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 4,
+   "log2big": 25,
+   "log2_overhead": 1.6657444495778506
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 314,
+   "log2big": 23,
+   "log2_overhead": 306.04765815801966
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 96,
+   "log2big": 23,
+   "log2_overhead": 90.91991986670143
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 198,
+   "log2big": 23,
+   "log2_overhead": 191.69325921281404
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 95,
+   "log2big": 23,
+   "log2_overhead": 89.24078654305777
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 256,
+   "log2big": 23,
+   "log2_overhead": 248.55809889598646
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 54,
+   "log2big": 23,
+   "log2_overhead": 49.3252866343854
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 309,
+   "log2big": 23,
+   "log2_overhead": 301.6688211897793
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 73,
+   "log2big": 23,
+   "log2_overhead": 68.3374268423666
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 247,
+   "log2big": 23,
+   "log2_overhead": 240.08076689017275
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 46,
+   "log2big": 23,
+   "log2_overhead": 41.827740345151746
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 9,
+   "log2big": 23,
+   "log2_overhead": 4.719811751279799
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 11,
+   "log2big": 23,
+   "log2_overhead": 6.057113015662772
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 379,
+   "log2big": 21,
+   "log2_overhead": 368.8956113351887
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 134,
+   "log2big": 21,
+   "log2_overhead": 126.34073980239003
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 261,
+   "log2big": 21,
+   "log2_overhead": 252.1875886288969
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 140,
+   "log2big": 21,
+   "log2_overhead": 132.55769106350618
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 300,
+   "log2big": 21,
+   "log2_overhead": 291.53008822375784
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 114,
+   "log2big": 21,
+   "log2_overhead": 106.9054567642263
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 349,
+   "log2big": 21,
+   "log2_overhead": 339.23267776244046
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 118,
+   "log2big": 21,
+   "log2_overhead": 110.92686957988766
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 318,
+   "log2big": 21,
+   "log2_overhead": 309.3645365495526
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 141,
+   "log2big": 21,
+   "log2_overhead": 133.92813569045038
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 19,
+   "log2big": 21,
+   "log2_overhead": 12.715456341222492
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 22,
+   "log2big": 21,
+   "log2_overhead": 14.967773314659574
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 434,
+   "log2big": 19,
+   "log2_overhead": 422.04979408441335
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 215,
+   "log2big": 19,
+   "log2_overhead": 205.53848048058046
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 350,
+   "log2big": 19,
+   "log2_overhead": 338.79379183454944
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 205,
+   "log2big": 19,
+   "log2_overhead": 195.43179364081485
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 377,
+   "log2big": 19,
+   "log2_overhead": 366.2458283147532
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 205,
+   "log2big": 19,
+   "log2_overhead": 195.38234710407332
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 390,
+   "log2big": 19,
+   "log2_overhead": 379.2130411156752
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 178,
+   "log2big": 19,
+   "log2_overhead": 169.06927760327648
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 363,
+   "log2big": 19,
+   "log2_overhead": 352.80134998592325
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 189,
+   "log2big": 19,
+   "log2_overhead": 180.19470865807443
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 32,
+   "log2big": 19,
+   "log2_overhead": 23.73246637125944
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 33,
+   "log2big": 19,
+   "log2_overhead": 24.394344060147844
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 9,
+   "log2big": 23,
+   "log2_overhead": 8.059685975279784
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 23,
+   "log2_overhead": 0.7964202328223209
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 32,
+   "log2big": 23,
+   "log2_overhead": 31.00606280715435
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 23,
+   "log2_overhead": 1.7348439356279428
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 7,
+   "log2big": 23,
+   "log2_overhead": 6.051898899196004
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 23,
+   "log2_overhead": 2.734450568028649
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 22,
+   "log2big": 23,
+   "log2_overhead": 20.908513037523484
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 23,
+   "log2_overhead": 1.8866201295430685
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 17,
+   "log2big": 23,
+   "log2_overhead": 15.879243908385071
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 23,
+   "log2_overhead": 1.426686393668831
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.05190349186394627
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.05190349186394627
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.045868592580863066
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 44,
+   "log2big": 22,
+   "log2_overhead": 41.00862669955546
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 4,
+   "log2big": 22,
+   "log2_overhead": 1.2152200502289432
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 80,
+   "log2big": 22,
+   "log2_overhead": 77.19753048408049
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 5,
+   "log2big": 22,
+   "log2_overhead": 2.752495156656977
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 44,
+   "log2big": 22,
+   "log2_overhead": 39.98851424037225
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 5,
+   "log2big": 22,
+   "log2_overhead": 2.5796081863522673
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 65,
+   "log2big": 22,
+   "log2_overhead": 62.51500556100995
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 5,
+   "log2big": 22,
+   "log2_overhead": 2.767225257258069
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 32,
+   "log2big": 22,
+   "log2_overhead": 29.929356603468328
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 2,
+   "k": 6,
+   "log2big": 22,
+   "log2_overhead": 3.5155270223012067
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.10853536482787973
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.10853536482787973
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.10194557547228555
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 78,
+   "log2big": 20,
+   "log2_overhead": 73.59414569975564
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 7,
+   "log2big": 20,
+   "log2_overhead": 3.177071880737273
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 193,
+   "log2big": 20,
+   "log2_overhead": 187.17610870082308
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 14,
+   "log2big": 20,
+   "log2_overhead": 9.220370095262602
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 66,
+   "log2big": 20,
+   "log2_overhead": 60.615663270114375
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 12,
+   "log2big": 20,
+   "log2_overhead": 7.103870292697586
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 99,
+   "log2big": 20,
+   "log2_overhead": 94.47771063783819
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 6,
+   "log2big": 20,
+   "log2_overhead": 1.8306498814405998
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 92,
+   "log2big": 20,
+   "log2_overhead": 86.67694066119233
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 4,
+   "k": 13,
+   "log2big": 20,
+   "log2_overhead": 7.362781309366163
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 4,
+   "log2big": 20,
+   "log2_overhead": 0.3238114299848043
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 4,
+   "log2big": 20,
+   "log2_overhead": 0.3238114299848043
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-reconf",
+   "m": 4,
+   "k": 4,
+   "log2big": 20,
+   "log2_overhead": 0.30927352823117005
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 150,
+   "log2big": 18,
+   "log2_overhead": 142.5299957972183
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 10,
+   "log2big": 18,
+   "log2_overhead": 3.798708005374884
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 234,
+   "log2big": 18,
+   "log2_overhead": 225.93637134007403
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 17,
+   "log2big": 18,
+   "log2_overhead": 10.398337898052134
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 189,
+   "log2big": 18,
+   "log2_overhead": 180.03457926524754
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 21,
+   "log2big": 18,
+   "log2_overhead": 13.556917526849404
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 132,
+   "log2big": 18,
+   "log2_overhead": 124.40575539826557
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 15,
+   "log2big": 18,
+   "log2_overhead": 8.10009652365764
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 162,
+   "log2big": 18,
+   "log2_overhead": 153.9567858150065
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 6,
+   "k": 17,
+   "log2big": 18,
+   "log2_overhead": 9.83980161991986
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 8,
+   "log2big": 18,
+   "log2_overhead": 1.8238289342797387
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 9,
+   "log2big": 18,
+   "log2_overhead": 2.3008501860748325
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 198,
+   "log2big": 16,
+   "log2_overhead": 188.89000596278905
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 28,
+   "log2big": 16,
+   "log2_overhead": 19.492649919484442
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 259,
+   "log2big": 16,
+   "log2_overhead": 248.8984858069247
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 27,
+   "log2big": 16,
+   "log2_overhead": 18.52401717958532
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 206,
+   "log2big": 16,
+   "log2_overhead": 195.94256805715636
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 30,
+   "log2big": 16,
+   "log2_overhead": 20.215355489787477
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 199,
+   "log2big": 16,
+   "log2_overhead": 189.92236667747875
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 31,
+   "log2big": 16,
+   "log2_overhead": 21.987987411203008
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 187,
+   "log2big": 16,
+   "log2_overhead": 177.63511769678368
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "memory",
+   "m": 8,
+   "k": 31,
+   "log2big": 16,
+   "log2_overhead": 21.417018409930627
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 12,
+   "log2big": 16,
+   "log2_overhead": 4.075832691805076
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 13,
+   "log2big": 16,
+   "log2_overhead": 4.607050405742989
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 37,
+   "log2big": 23,
+   "log2_overhead": 35.2046708736094
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 23,
+   "log2_overhead": 2.7217104590290084
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 47,
+   "log2big": 23,
+   "log2_overhead": 45.35672341539272
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 23,
+   "log2_overhead": 1.4694407681449455
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 26,
+   "log2big": 23,
+   "log2_overhead": 24.652556914478392
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 23,
+   "log2_overhead": 1.721581860974819
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 108,
+   "log2big": 23,
+   "log2_overhead": 105.39834396888948
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 5,
+   "log2big": 23,
+   "log2_overhead": 2.9458559899645245
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 243,
+   "log2big": 23,
+   "log2_overhead": 237.724317336392
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 23,
+   "log2_overhead": 2.3948404338509697
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.0008392655871531929
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.0008392655871531929
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 77,
+   "log2big": 22,
+   "log2_overhead": 73.6314223479415
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 9,
+   "log2big": 22,
+   "log2_overhead": 6.009567003215519
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 90,
+   "log2big": 22,
+   "log2_overhead": 86.5934295811749
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 15,
+   "log2big": 22,
+   "log2_overhead": 11.255445914352972
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 60,
+   "log2big": 22,
+   "log2_overhead": 57.16967511059812
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 10,
+   "log2big": 22,
+   "log2_overhead": 6.599240217135549
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 120,
+   "log2big": 22,
+   "log2_overhead": 116.45592182804809
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 10,
+   "log2big": 22,
+   "log2_overhead": 6.395990303362421
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 250,
+   "log2big": 22,
+   "log2_overhead": 243.77334261848614
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 2,
+   "k": 7,
+   "log2big": 22,
+   "log2_overhead": 4.324289027756304
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.0028495436900435323
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.0028495436900435323
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 118,
+   "log2big": 20,
+   "log2_overhead": 112.77274658599738
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 14,
+   "log2big": 20,
+   "log2_overhead": 8.441731460362359
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 203,
+   "log2big": 20,
+   "log2_overhead": 196.3197160974055
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 23,
+   "log2big": 20,
+   "log2_overhead": 16.6427437382962
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 76,
+   "log2big": 20,
+   "log2_overhead": 70.34901034949152
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 19,
+   "log2big": 20,
+   "log2_overhead": 12.780462557488764
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 239,
+   "log2big": 20,
+   "log2_overhead": 231.75206651493556
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 15,
+   "log2big": 20,
+   "log2_overhead": 9.42766272496112
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 278,
+   "log2big": 20,
+   "log2_overhead": 269.9938660731731
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 4,
+   "k": 15,
+   "log2big": 20,
+   "log2_overhead": 10.057337322413947
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 5,
+   "log2big": 20,
+   "log2_overhead": 0.43848174303118626
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 5,
+   "log2big": 20,
+   "log2_overhead": 0.43848174303118626
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 167,
+   "log2big": 18,
+   "log2_overhead": 158.6782730183728
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 29,
+   "log2big": 18,
+   "log2_overhead": 20.98364290848723
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 307,
+   "log2big": 18,
+   "log2_overhead": 297.89398951174155
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 34,
+   "log2big": 18,
+   "log2_overhead": 25.446554527744578
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 121,
+   "log2big": 18,
+   "log2_overhead": 113.31744469527966
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 30,
+   "log2big": 18,
+   "log2_overhead": 22.53539669427676
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 293,
+   "log2big": 18,
+   "log2_overhead": 282.75629614454937
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 22,
+   "log2big": 18,
+   "log2_overhead": 14.666776381080705
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 302,
+   "log2big": 18,
+   "log2_overhead": 292.110006910288
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 6,
+   "k": 28,
+   "log2big": 18,
+   "log2_overhead": 20.158340697157616
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 9,
+   "log2big": 18,
+   "log2_overhead": 2.0183865646098234
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 9,
+   "log2big": 18,
+   "log2_overhead": 2.0183865646098234
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 187,
+   "log2big": 16,
+   "log2_overhead": 177.04650727140768
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 33,
+   "log2big": 16,
+   "log2_overhead": 23.13448918811199
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 343,
+   "log2big": 16,
+   "log2_overhead": 331.40198207375664
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 37,
+   "log2big": 16,
+   "log2_overhead": 25.571881973895177
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 224,
+   "log2big": 16,
+   "log2_overhead": 213.35104520136824
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 28,
+   "log2big": 16,
+   "log2_overhead": 18.32816464148223
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 312,
+   "log2big": 16,
+   "log2_overhead": 300.1611329214506
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 26,
+   "log2big": 16,
+   "log2_overhead": 16.7062793284254
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 331,
+   "log2big": 16,
+   "log2_overhead": 319.0966516282727
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "memory",
+   "m": 8,
+   "k": 36,
+   "log2big": 16,
+   "log2_overhead": 26.60013509054208
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 13,
+   "log2big": 16,
+   "log2_overhead": 4.087812601814189
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 13,
+   "log2big": 16,
+   "log2_overhead": 4.087812601814189
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 44,
+   "log2big": 23,
+   "log2_overhead": 42.27059900532623
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 5,
+   "log2big": 23,
+   "log2_overhead": 2.9530394922652725
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 4,
+   "log2big": 23,
+   "log2_overhead": 2.731760241463345
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 3,
+   "log2big": 23,
+   "log2_overhead": 1.7660255199428114
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 71,
+   "log2big": 23,
+   "log2_overhead": 69.45236514141101
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 5,
+   "log2big": 23,
+   "log2_overhead": 3.0643347380547645
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 42,
+   "log2big": 23,
+   "log2_overhead": 40.16750681393795
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 2,
+   "log2big": 23,
+   "log2_overhead": 0.9567332727928992
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 1,
+   "k": 42,
+   "log2big": 23,
+   "log2_overhead": 40.01721777317992
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 1,
+   "k": 4,
+   "log2big": 23,
+   "log2_overhead": 2.4974197044345026
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.0014740186303825453
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 1,
+   "k": 1,
+   "log2big": 23,
+   "log2_overhead": 0.0014740186303825453
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 77,
+   "log2big": 22,
+   "log2_overhead": 73.29674268520446
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 5,
+   "log2big": 22,
+   "log2_overhead": 2.604371572372326
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 101,
+   "log2big": 22,
+   "log2_overhead": 97.01793446453308
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 7,
+   "log2big": 22,
+   "log2_overhead": 4.470601967492211
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 93,
+   "log2big": 22,
+   "log2_overhead": 90.4144383460792
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 6,
+   "log2big": 22,
+   "log2_overhead": 3.5165569081303722
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 74,
+   "log2big": 22,
+   "log2_overhead": 70.29950244184373
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 7,
+   "log2big": 22,
+   "log2_overhead": 3.754483693205895
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 2,
+   "k": 50,
+   "log2big": 22,
+   "log2_overhead": 46.27648942984902
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 2,
+   "k": 7,
+   "log2big": 22,
+   "log2_overhead": 4.405251527799958
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.004361807260178097
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 2,
+   "k": 2,
+   "log2big": 22,
+   "log2_overhead": 0.004361807260178097
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 166,
+   "log2big": 20,
+   "log2_overhead": 159.4072049874512
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 12,
+   "log2big": 20,
+   "log2_overhead": 6.495472553910073
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 145,
+   "log2big": 20,
+   "log2_overhead": 138.17616356734058
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 11,
+   "log2big": 20,
+   "log2_overhead": 6.145858136929856
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 174,
+   "log2big": 20,
+   "log2_overhead": 167.9052542418964
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 14,
+   "log2big": 20,
+   "log2_overhead": 8.959073280046024
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 153,
+   "log2big": 20,
+   "log2_overhead": 146.5817331884074
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 15,
+   "log2big": 20,
+   "log2_overhead": 9.61974908924186
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 4,
+   "k": 170,
+   "log2big": 20,
+   "log2_overhead": 162.38398180164987
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 4,
+   "k": 12,
+   "log2big": 20,
+   "log2_overhead": 6.9816683895082825
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 4,
+   "k": 4,
+   "log2big": 20,
+   "log2_overhead": 0.03660646621749919
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 4,
+   "k": 4,
+   "log2big": 20,
+   "log2_overhead": 0.03660646621749919
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 243,
+   "log2big": 18,
+   "log2_overhead": 233.84954537729132
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 21,
+   "log2big": 18,
+   "log2_overhead": 13.32865461890044
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 229,
+   "log2big": 18,
+   "log2_overhead": 220.08669463167817
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 23,
+   "log2big": 18,
+   "log2_overhead": 14.86556589725603
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 250,
+   "log2big": 18,
+   "log2_overhead": 241.8243801826442
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 21,
+   "log2big": 18,
+   "log2_overhead": 13.099753462236482
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 193,
+   "log2big": 18,
+   "log2_overhead": 184.1061941037098
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 19,
+   "log2big": 18,
+   "log2_overhead": 12.439658902757923
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 6,
+   "k": 248,
+   "log2big": 18,
+   "log2_overhead": 238.84997564988154
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 6,
+   "k": 21,
+   "log2big": 18,
+   "log2_overhead": 13.640848908861823
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 6,
+   "k": 6,
+   "log2big": 18,
+   "log2_overhead": 0.18794466780689945
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 6,
+   "k": 6,
+   "log2big": 18,
+   "log2_overhead": 0.18794466780689945
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 282,
+   "log2big": 16,
+   "log2_overhead": 270.54677418201186
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 27,
+   "log2big": 16,
+   "log2_overhead": 17.558075732254917
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 288,
+   "log2big": 16,
+   "log2_overhead": 276.25709919468056
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 30,
+   "log2big": 16,
+   "log2_overhead": 19.93341797581917
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 253,
+   "log2big": 16,
+   "log2_overhead": 242.88905935745177
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 28,
+   "log2big": 16,
+   "log2_overhead": 17.978034729257775
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 273,
+   "log2big": 16,
+   "log2_overhead": 260.9375057881645
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 33,
+   "log2big": 16,
+   "log2_overhead": 22.97116878880337
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "uniform",
+   "m": 8,
+   "k": 300,
+   "log2big": 16,
+   "log2_overhead": 288.71110166394186
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "memory",
+   "m": 8,
+   "k": 30,
+   "log2big": 16,
+   "log2_overhead": 20.307896503071785
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "greedy",
+   "m": 8,
+   "k": 10,
+   "log2big": 16,
+   "log2_overhead": 1.8362998566361561
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "strategy": "ctg-slice",
+   "m": 8,
+   "k": 12,
+   "log2big": 16,
+   "log2_overhead": 2.807225296476485
+  }
+ ],
+ "min_memory_tree": [
+  {
+   "instance": "1D 30q d20",
+   "seed": 0,
+   "m": 0,
+   "log2_overhead": 1.6604303569745535
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 1,
+   "m": 0,
+   "log2_overhead": 0.5091362303920078
+  },
+  {
+   "instance": "1D 30q d20",
+   "seed": 2,
+   "m": 0,
+   "log2_overhead": 1.625498336909774
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 0,
+   "m": 0,
+   "log2_overhead": 3.175131835557683
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 1,
+   "m": 0,
+   "log2_overhead": 3.3589518599197437
+  },
+  {
+   "instance": "2D 6x6 d12",
+   "seed": 2,
+   "m": 0,
+   "log2_overhead": 3.006652335936672
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 0,
+   "m": 0,
+   "log2_overhead": 1.3705862673236295
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 1,
+   "m": 1,
+   "log2_overhead": 0.8332966515755451
+  },
+  {
+   "instance": "1D 36q d28",
+   "seed": 2,
+   "m": 0,
+   "log2_overhead": 1.4488032211672317
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 0,
+   "m": 0,
+   "log2_overhead": 3.971731483273905
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 1,
+   "m": 0,
+   "log2_overhead": 4.450870118034863
+  },
+  {
+   "instance": "2D 8x8 d12",
+   "seed": 2,
+   "m": 0,
+   "log2_overhead": 2.5801384923850237
+  }
+ ]
+}

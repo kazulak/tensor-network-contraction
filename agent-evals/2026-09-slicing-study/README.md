@@ -1,4 +1,4 @@
-# 2026-09 - Slicing study: four Gemini models on one prompt
+# 2026-09 - Slicing study: four Gemini models and Claude Sonnet 5.5 on one prompt
 
 **Question:** How much extra work does slicing cost for a given memory saving, and does the
 choice of sliced indices matter? The checked reference answer is
@@ -9,6 +9,13 @@ Antigravity CLI (`agy -p`, headless, one folder each) on 2026-09-27. All four ex
 cleanly. **Prompt:** [PROMPT.md](PROMPT.md), the same for all, no follow-ups.
 **Launcher:** [run.sh](run.sh).
 
+**Added 2026-09-29:** Claude Sonnet 5.5 at xhigh effort, run through the Claude Code CLI
+(`claude -p`, v2.1.284, headless, auto-approving its tool calls like `agy`) on the same prompt.
+**Launcher:** [run-claude.sh](run-claude.sh). It ran in an empty scratch directory outside the
+repository, so it could not see git history or [topic 03](../../topics/03-slicing/). It had no MCP
+servers and no user settings, but Claude Code's bundled skills were still available. It exited
+cleanly after 79 turns, 60 min and $4.39. The Gemini runs' durations were not recorded.
+
 Each model folder is the agent's untouched output. Only absolute local paths in links were
 removed. `transcript.md` is the agent's final message.
 
@@ -17,15 +24,15 @@ removed. `transcript.md` is the agent's final message.
 Reviewed by Claude Code (Claude Opus 5.5). For each agent it reran the tests and the study in a
 scratch copy, compared every table against the rerun, and checked each citation on arXiv.
 
-| Criterion (0–2) | 3.1 Pro | 3.6 Flash | 3.7 Flash | 3.8 Flash |
-|---|---|---|---|---|
-| Runs: code and tests run as delivered | 2 | 2 | 2 | 2 |
-| Correct: amplitudes, Haar U(4), slicing method | 0 | 1 | 2 | 2 |
-| Honest: numbers reproduce on rerun | 1 | 2 | 2 | 1 |
-| Answer: conclusions follow from the data | 0 | 1 | 2 | 1 |
-| Sources: citations exist and are right | 1 | 0 | 0 | 1 |
-| Simple: ≤ ~300 lines, readable | 2 | 2 | 2 | 2 |
-| **Total (of 12)** | **6** | **8** | **10** | **9** |
+| Criterion (0–2) | 3.1 Pro | 3.6 Flash | 3.7 Flash | 3.8 Flash | Sonnet 5.5 |
+|---|---|---|---|---|---|
+| Runs: code and tests run as delivered | 2 | 2 | 2 | 2 | 2 |
+| Correct: amplitudes, Haar U(4), slicing method | 0 | 1 | 2 | 2 | 2 |
+| Honest: numbers reproduce on rerun | 1 | 2 | 2 | 1 | 2 |
+| Answer: conclusions follow from the data | 0 | 1 | 2 | 1 | 2 |
+| Sources: citations exist and are right | 1 | 0 | 0 | 1 | 2 |
+| Simple: ≤ ~300 lines, readable | 2 | 2 | 2 | 2 | 1 |
+| **Total (of 12)** | **6** | **8** | **10** | **9** | **11** |
 
 All four got the basics right: complex Haar-random U(4) gates, unitarity tests, and
 sliced = unsliced = state-vector checks that pass. Earlier, less constrained agent runs got these wrong.
@@ -78,6 +85,43 @@ The differences are in the analysis.
   a poor starting tree, and the README does not say so.
 - Its tests sum the slices with cotengra itself, rather than with an independent loop.
 
+### Claude Sonnet 5.5 (xhigh): 11/12 (best), added 2026-09-29
+- **Fully reproducible.** Rerun in a scratch copy, all 28 tests pass and `results.json` is
+  identical to the delivered one. The agent seeds the global RNGs because cotengra's `seed=`
+  did not make its runs reproducible, and it says so.
+- **Correct and self-checked.**
+  - Complex Haar U(4) gates, tested for unitarity and with a Haar statistic E|Tr U|² = 1, which
+    a QR without the phase fix fails.
+  - Slices are summed by its own executor, not by cotengra, and match the state vector to
+    ~7e-17.
+  - Its cost counter is tested against the multiply-adds the contraction actually executes.
+- **Fair comparison, and it studied the baseline.** Five strategies run on the *same* base tree,
+  over three path-finder seeds. The README reports how much the base tree alone moves the result
+  (more than 10× at 4× less memory). That is the effect 3.1 Pro and 3.8 Flash missed.
+- **Results.**
+  - 2D grids: 4× less memory for 6–11% more work.
+  - 1D brickwork is far worse: 256× less memory costs 4.2·10⁶× (36 qubits, greedy).
+  - Random bonds cost 10¹²× or more.
+  - Re-optimising the tree while slicing (cotengra `slice_and_reconfigure`) helps most in 1D.
+- **Honest answer.** Its conclusions match its tables, and it names what it did not test (e.g.
+  *why* 1D is worse). It does not comment on an oddity in its own table: the 30-qubit 1D circuit
+  needs more slices, at far higher cost, than the 36-qubit one (9 vs 4 at 4× less memory).
+- **Citations.** All four arXiv IDs and titles are right: Mezzadri, Markov & Shi, Gray &
+  Kourtis, Arute et al. It flags them as "cited from memory, check the IDs", and leaves out
+  papers whose IDs it was unsure of.
+- **Weaker points (Simple: 1).**
+  - The code is exactly 300 lines, reached by squeezing (dense bitmask code), and the README
+    is 170 dense lines.
+  - The study runs 9 min serially, over the "few minutes" limit. It works around that with 4
+    parallel processes and says so.
+- **Stepped outside its directory.** It loaded Claude Code's bundled `dataviz` skill, read that
+  skill's files and ran its palette validator, which it disclosed. It also wrote one scratch file
+  to `/tmp`, which it did not disclose. Neither affects the results, but the prompt said to work
+  only inside the current directory.
+- **Cost.** It spent 60 min and $4.39 (79 turns). Part of that went into checks: by its own
+  account it injected six bugs into a scratch copy to confirm the tests catch them (not saved).
+  The log shows it rerunning the full study in a copy to confirm the results are deterministic.
+
 ### What this run shows
 - **Better baseline, costlier slicing.** Overhead is measured against the unsliced tree. The
   most striking results in 3.1 Pro and 3.8 Flash (0.8×, "256× for 2.7×") came from a weak
@@ -90,6 +134,8 @@ The differences are in the analysis.
 - **Tests passing ≠ study correct.** All 4 test suites passed, and 3 of the 4 studies still
   contain a bug or a misleading headline.
 - The newer Flash models (3.7, 3.8) beat 3.1 Pro on this task.
+- Sonnet 5.5 at xhigh was the only agent with no correctness, reproducibility or citation
+  problem. It was not in the blind audit below.
 
 ## Audit by Gemini 3.8 Flash: how good is an AI auditor?
 
