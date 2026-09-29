@@ -16,7 +16,8 @@ tracks:
 > Nothing here is peer-reviewed.
 
 My main research is not here. My Master's thesis was on tensor network contraction for quantum
-circuit simulation on processing-in-memory architectures, with a proof of concept. Reproductions
+circuit simulation on processing-in-memory architectures, with a proof of concept:
+[kazulak/masters-thesis](https://github.com/kazulak/masters-thesis). Reproductions
 of specific papers will get their own standalone repositories.
 
 ## Topics so far

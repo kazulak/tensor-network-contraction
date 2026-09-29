@@ -1,5 +1,7 @@
 # What does slicing cost? FLOP overhead vs. memory saved for random-circuit amplitude networks
 
+> **AI-generated, not peer-reviewed.** Written autonomously by Claude Sonnet 5.5, xhigh (Claude Code CLI) from [this prompt](../PROMPT.md), kept unedited. See the [review](../README.md#review) for problems found.
+
 ## Question
 
 When a tensor network is too large to contract in memory, *slicing* fixes the values of a few indices and sums the

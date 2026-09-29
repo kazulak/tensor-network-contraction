@@ -7,7 +7,7 @@ title: "Tensor networks: topics and AI agent evals"
 authors:
   - family-names: Kazulak
     given-names: Tomasz
-repository-code: "https://github.com/kazulak/tensor-networks-studies"
+repository-code: "https://github.com/kazulak/tensor-network-contraction"
 license: MIT
 keywords:
   - tensor networks
