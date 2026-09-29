@@ -2,8 +2,11 @@
 
 Source: Gray & Kourtis, arXiv:2002.01935, Sec. 4.7.1. Slicing a set of indices s gives
 d_sliced = prod_{e in s} w(e) independent networks; each costs >= C / d_sliced, so the total
-sliced cost C_s >= C. Indices are chosen greedily, one at a time, until a target width is met.
-The network is a single amplitude <x|C|0..0> of a random 2D-grid circuit with Haar U(4) gates.
+sliced cost C_s >= C. Per step v with legs s_v, the total over all slices is
+2^|s - s_v| * C(v): steps that already carry every sliced index cost nothing extra.
+Indices are chosen greedily, one at a time, until a target width is met.
+The network, a list of (tensor, legs) as in topics 00-02, is a single amplitude <x|C|0..0> of
+a random 2D-grid circuit with Haar U(4) gates.
 """
 import itertools
 import math
@@ -36,29 +39,26 @@ def statevector(circ, n):
 
 
 def amplitude_network(circ, n, bitstring):
-    """Tensors and integer labels for <bitstring|C|0..0> (as in topic 01)."""
+    """Network of (tensor, legs) for <bitstring|C|0..0>, as in topic 01. Gate legs are (out, in)."""
     wire, nxt = list(range(n)), n
-    tensors = [np.array([1, 0], dtype=complex) for _ in range(n)]
-    labels = [(q,) for q in range(n)]
+    network = [(np.array([1, 0], dtype=complex), (q,)) for q in range(n)]
     for U, (a, b) in circ:
-        tensors.append(U.reshape(2, 2, 2, 2))
-        labels.append((nxt, nxt + 1, wire[a], wire[b]))
+        network.append((U.reshape(2, 2, 2, 2), (nxt, nxt + 1, wire[a], wire[b])))
         wire[a], wire[b], nxt = nxt, nxt + 1, nxt + 2
     for q, bit in enumerate(bitstring):
-        tensors.append(np.eye(2, dtype=complex)[int(bit)])
-        labels.append((wire[q],))
-    return tensors, labels
+        network.append((np.eye(2, dtype=complex)[int(bit)], (wire[q],)))
+    return network
 
 
-def find_path(labels):
-    eq = ",".join("".join(oe.get_symbol(l) for l in t) for t in labels) + "->"
-    return oe.contract_path(eq, *[(2,) * len(t) for t in labels], shapes=True,
+def find_path(network):
+    eq = ",".join("".join(oe.get_symbol(l) for l in t) for _, t in network) + "->"
+    return oe.contract_path(eq, *[T.shape for T, _ in network], shapes=True,
                             optimize="greedy")[0]
 
 
-def width_cost(labels, path, sliced=()):
+def width_cost(network, path, sliced=()):
     """W and total cost C_s of the tree, with the sliced indices removed (all dims are 2)."""
-    items = [frozenset(t) - set(sliced) for t in labels]
+    items = [frozenset(t) - set(sliced) for _, t in network]
     W, C = max(len(t) for t in items), 0
     for i, j in path:
         a, b = items[i], items[j]
@@ -67,32 +67,32 @@ def width_cost(labels, path, sliced=()):
     return W, C * 2 ** len(sliced)                     # d_sliced copies of the sliced network
 
 
-def slice_greedy(labels, path, target_W):
+def slice_greedy(network, path, target_W):
     """Add the index giving the smallest (width, total cost) until the width is <= target."""
     sliced = []
-    candidates = sorted({l for t in labels for l in t})
-    while width_cost(labels, path, sliced)[0] > target_W:
+    candidates = sorted({l for _, t in network for l in t})
+    while width_cost(network, path, sliced)[0] > target_W:
         best = min((l for l in candidates if l not in sliced),
-                   key=lambda l: width_cost(labels, path, sliced + [l]))
+                   key=lambda l: width_cost(network, path, sliced + [l]))
         sliced.append(best)
     return sliced
 
 
-def slice_random(labels, path, target_W, rng):
-    candidates = list(rng.permutation(sorted({l for t in labels for l in t})))
+def slice_random(network, path, target_W, rng):
+    candidates = list(rng.permutation(sorted({l for _, t in network for l in t})))
     sliced = []
-    while width_cost(labels, path, sliced)[0] > target_W:
+    while width_cost(network, path, sliced)[0] > target_W:
         sliced.append(candidates.pop())
     return sliced
 
 
-def contract_sliced(tensors, labels, path, sliced):
+def contract_sliced(network, path, sliced):
     """Sum over all values of the sliced indices of the contraction along the same path."""
     total = 0
     for values in itertools.product((0, 1), repeat=len(sliced)):
         fix = dict(zip(sliced, values))
         items = []
-        for T, t in zip(tensors, labels):
+        for T, t in network:
             T = T[tuple(fix.get(l, slice(None)) for l in t)]
             items.append((T, tuple(l for l in t if l not in fix)))
         for i, j in path:
@@ -110,15 +110,15 @@ if __name__ == "__main__":
     rng = np.random.default_rng(0)
     rows, cols, depth = 4, 4, 12
     circ = grid_circuit(rows, cols, depth, rng)
-    _, labels = amplitude_network(circ, rows * cols, "0" * rows * cols)
-    path = find_path(labels)
-    W0, C0 = width_cost(labels, path)
-    print(f"{rows}x{cols} grid, depth {depth}: {len(labels)} tensors, W = {W0}, log2 C = {math.log2(C0):.2f}")
+    network = amplitude_network(circ, rows * cols, "0" * rows * cols)
+    path = find_path(network)
+    W0, C0 = width_cost(network, path)
+    print(f"{rows}x{cols} grid, depth {depth}: {len(network)} tensors, W = {W0}, log2 C = {math.log2(C0):.2f}")
     print(" target W | memory saved | greedy: #sliced, C_s/C | random, median of 20: #sliced, C_s/C")
     for target in range(W0 - 1, W0 - 9, -1):
-        g = slice_greedy(labels, path, target)
-        rand = [slice_random(labels, path, target, rng) for _ in range(20)]
-        r_over = np.median([width_cost(labels, path, s)[1] / C0 for s in rand])
+        g = slice_greedy(network, path, target)
+        rand = [slice_random(network, path, target, rng) for _ in range(20)]
+        r_over = np.median([width_cost(network, path, s)[1] / C0 for s in rand])
         r_num = np.median([len(s) for s in rand])
-        print(f" {target:8d} | {2 ** (W0 - target):11d}x | {len(g):14d}, {width_cost(labels, path, g)[1] / C0:7.2f}x"
+        print(f" {target:8d} | {2 ** (W0 - target):11d}x | {len(g):14d}, {width_cost(network, path, g)[1] / C0:7.2f}x"
               f" | {r_num:28.0f}, {r_over:7.1e}x")

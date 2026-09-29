@@ -26,13 +26,18 @@ def test_matrix_chain_cost():
 
 
 def test_ladder_bubblings():
-    # Section 1.4: along the top the stored rank reaches n; rung by rung it never exceeds 3.
+    # Section 1.4: along the top the stored rank reaches n and the cost is exponential;
+    # rung by rung the rank never exceeds 3 and the cost is linear in n.
+    rung_costs = []
     for n in range(3, 9):
         net = ladder(n, 2, rng)
         along, rungs = ladder_orders(n)
-        (x1, r1), (x2, r2) = bubble(net, along), bubble(net, rungs)
+        (x1, r1, c1), (x2, r2, c2) = bubble(net, along), bubble(net, rungs)
         assert np.isclose(x1, einsum_reference(net)) and np.isclose(x2, x1)
         assert r1 == n and r2 <= 3
+        assert c1 >= 2 ** n
+        rung_costs.append(c2)
+    assert len(set(np.diff(rung_costs))) == 1      # same extra cost for every extra rung
 
 
 def test_colourings_cycle_chromatic_polynomial():

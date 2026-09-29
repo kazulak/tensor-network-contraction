@@ -10,10 +10,10 @@ the total work C_s ≥ C. Indices are chosen greedily, one at a time, until a ta
 
 ## What is here
 
-`slicing.py` (~150 lines):
+`slicing.py` (~125 lines):
 
 - A single amplitude of a random 4×4-qubit circuit, depth 12, with Sycamore-like couplings and
-  Haar U(4) gates.
+  Haar U(4) gates, as a list of (tensor, legs) like topics 00–02.
 - A fixed contraction tree from `opt_einsum` greedy.
 - The width and total cost of that tree with any set of indices sliced.
 - A greedy slicer and a random slicer for comparison.
@@ -37,15 +37,38 @@ Same tree, sliced to a target width (seed 0):
 - **Which indices you slice matters enormously.** Most indices do not cross the widest
   intermediate, so slicing them only multiplies the work.
 
+## Why the overhead looks like this
+
+- **Slicing is moving sums outside.** A network is nested sums over its indices, and slicing
+  performs some of them last (Gray & Kourtis §4.7.1). On a bond this is the same as inserting
+  I = Σₖ |k⟩⟨k| and pulling the sum out of the contraction.
+- **Cost per step.** Take a pairwise step v whose legs are s_v, with unsliced cost C(v), and
+  slice a set s.
+  - Each of the 2^|s| slices pays 2^|s_v ∖ s|.
+  - The total is therefore 2^|s ∖ s_v| · C(v) ≥ C(v), which sums to C_s ≥ C. `width_cost`
+    computes exactly this.
+- **Consequences.**
+  - Steps whose legs already include every sliced index cost nothing extra.
+  - Every other step is repeated in each slice where it is unchanged. These are the
+    "redundantly repeated contractions" of §4.7.1.
+  - Greedy slicing picks indices of the widest, most expensive steps, so the first few slices
+    are almost free. Random slicing picks indices that most steps lack, so the repeats multiply.
+
+**About "Sycamore-like":** this refers only to the coupling scheme, four alternating
+nearest-neighbour patterns. The gates are Haar-random U(4), not Sycamore's fSim gates. Neither
+has an exact low-rank decomposition across the two qubits (Gray & Kourtis §4.6 for fSim), unlike
+CZ, which splits with bond dimension 2. So no gate splitting applies here.
+
 This topic is the reference answer for the
 [2026-09 slicing study](../../agent-evals/2026-09-slicing-study/) agent evaluation.
 
 ## Checks
 
-`pytest` (2 tests):
+`pytest` (3 tests):
 
 - The sum over all slices equals the unsliced contraction and the state-vector amplitude.
 - Greedy slicing reaches the target width, and the total cost never drops below C.
+- Random slicing also reaches the target width, but costs at least as much as greedy slicing.
 
 ```bash
 python slicing.py      # ~20 s

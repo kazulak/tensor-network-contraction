@@ -9,9 +9,7 @@ A circuit is a list of (U, qubits), U a (2^k x 2^k) unitary acting on k qubits.
 import numpy as np
 import opt_einsum as oe
 
-I2 = np.eye(2, dtype=complex)
 H = np.array([[1, 1], [1, -1]], dtype=complex) / np.sqrt(2)
-X = np.array([[0, 1], [1, 0]], dtype=complex)
 S = np.diag([1, 1j])
 T = np.diag([1, np.exp(1j * np.pi / 4)])
 CNOT = np.array([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]], dtype=complex)
@@ -69,16 +67,19 @@ def statevector(circ, n, x=0):
 
 # --- Tensor network ----------------------------------------------------------------
 
-def to_network(circ, n, bitstring=None):
+def to_network(circ, n, bitstring=None, initial=None):
     """One tensor per initial qubit, per gate and (optionally) per final projector <x|.
 
-    Each wire segment gets a fresh label. Without a bitstring, the n final wire labels
-    stay open and the network is the full output state; with one, it is closed and
-    its value is the amplitude <x|C|0...0>.
+    Each wire segment gets a fresh label. The input is the basis state |initial>, |0...0>
+    by default. Without a bitstring, the n final wire labels stay open and the network is
+    the full output state; with one, it is closed and its value is <bitstring|C|initial>.
     """
+    initial = initial or "0" * n
+    # A short bitstring would leave wires open, and contracting to () would sum over them.
+    assert len(initial) == n and (bitstring is None or len(bitstring) == n)
     wire = list(range(n))                              # current label on each qubit wire
     next_label = n
-    tensors = [(np.array([1, 0], dtype=complex), (q,)) for q in range(n)]
+    tensors = [(np.eye(2, dtype=complex)[int(b)], (q,)) for q, b in enumerate(initial)]
     for U, qs in circ:
         k = len(qs)
         out = tuple(range(next_label, next_label + k))
@@ -116,10 +117,10 @@ if __name__ == "__main__":
     psi_tn = contract(tensors, out).reshape(-1)
     err = np.max(np.abs(psi_tn - statevector(circ, n)))
     print(f"\nRandom brickwork n={n}, depth={depth}: {len(tensors)} tensors, "
-          f"max |TN - state vector| = {err:.1e}")
+          f"max |TN - state vector| = {err:.1e}, norm = {np.linalg.norm(psi_tn):.12f}")
 
     n = 5
     x = 13
-    psi = statevector(qft(n), n, x)
+    psi = contract(*to_network(qft(n), n, initial=format(x, f"0{n}b"))).reshape(-1)
     dft = np.exp(2j * np.pi * x * np.arange(2 ** n) / 2 ** n) / np.sqrt(2 ** n)
-    print(f"QFT n={n} on |{x}>: max |circuit - DFT formula| = {np.max(np.abs(psi - dft)):.1e}")
+    print(f"QFT n={n} network on |{x}>: max |TN - DFT formula| = {np.max(np.abs(psi - dft)):.1e}")

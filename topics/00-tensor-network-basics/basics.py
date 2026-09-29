@@ -6,6 +6,7 @@ appears on at most two tensors; a shared label is summed over.
 """
 import itertools
 import numpy as np
+import opt_einsum as oe
 
 
 def contract_pair(A, a, B, b):
@@ -30,20 +31,27 @@ def pair_cost(a, b, dims):
 def bubble(tensors, order):
     """Contract tensors[order[0]], then absorb the others one at a time (a 'bubbling').
 
-    Returns the result and the largest rank of the stored tensor along the way.
+    Returns the result, the largest rank of the stored tensor along the way, and the total
+    number of multiply-adds.
     """
+    dims = {l: d for T, t in tensors for l, d in zip(t, T.shape)}
     T, t = tensors[order[0]]
-    max_rank = len(t)
+    max_rank, cost = len(t), 0
     for i in order[1:]:
+        cost += pair_cost(t, tensors[i][1], dims)
         T, t = contract_pair(T, t, *tensors[i])
         max_rank = max(max_rank, len(t))
-    return T, max_rank
+    return T, max_rank, cost
 
 
 def einsum_reference(tensors):
-    """Contract the whole network with numpy.einsum (the reference answer)."""
+    """Contract the whole network with opt_einsum (the reference answer).
+
+    Not np.einsum(optimize="greedy"): its path never builds an intermediate larger than the
+    largest input, so on the Petersen network with q=4 it ends in one 15-index einsum (25 s).
+    """
     args = [x for T, t in tensors for x in (T, list(t))]
-    return np.einsum(*args, [], optimize="greedy")
+    return oe.contract(*args, [], optimize="greedy")
 
 
 # --- Ladder network (Section 1.4) --------------------------------------------------
@@ -105,14 +113,14 @@ PETERSEN = [(i, (i + 1) % 5) for i in range(5)] + [(i, i + 5) for i in range(5)]
 
 if __name__ == "__main__":
     rng = np.random.default_rng(0)
-    print("Ladder (d=2): largest stored tensor rank for each bubbling, Eqs. (1.14)-(1.17)")
-    print(" n | along top, then bottom | rung by rung")
+    print("Ladder (d=2): largest stored rank and multiply-adds per bubbling, Eqs. (1.14)-(1.17)")
+    print(" n | along top, then bottom: rank, cost | rung by rung: rank, cost")
     for n in range(2, 11):
         net = ladder(n, 2, rng)
         along, rungs = ladder_orders(n)
-        (x1, r1), (x2, r2) = bubble(net, along), bubble(net, rungs)
+        (x1, r1, c1), (x2, r2, c2) = bubble(net, along), bubble(net, rungs)
         assert np.isclose(x1, x2) and np.isclose(x1, einsum_reference(net))
-        print(f"{n:2d} | {r1:22d} | {r2:12d}")
+        print(f"{n:2d} | {r1:27d}, {c1:5d} | {r2:17d}, {c2:5d}")
 
     print("\nNumber of q-colourings via tensor network, Eq. (1.19)")
     for name, edges, nv in [("triangle", [(0, 1), (1, 2), (2, 0)], 3),
