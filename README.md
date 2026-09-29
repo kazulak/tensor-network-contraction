@@ -44,6 +44,7 @@ python topics/02-contraction-order-and-cost/order.py
 ```
 topics/         checked, minimal implementations (Python; other languages welcome side by side)
 agent-evals/    agent evaluations: prompt, launcher, outputs and review, one dated folder per run
+reviews/        agent panel reviews of topics/ (physicist, engineer, mathematician)
 GUIDELINES.md   rules for both tracks
 references/     sources (redistributable PDFs included, others via fetch.sh)
 PLAN.md         roadmap

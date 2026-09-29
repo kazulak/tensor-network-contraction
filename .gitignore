@@ -22,3 +22,4 @@ Thumbs.db
 
 # Auditor scratch copies of agent studies
 agent-evals/*/audit/work/
+reviews/*/work/
